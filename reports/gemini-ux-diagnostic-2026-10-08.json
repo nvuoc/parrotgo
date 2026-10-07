@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "intents": [
+    "provide_info"
+  ],
+  "vehicle_values": [
+    "oto_4_cho"
+  ]
+}

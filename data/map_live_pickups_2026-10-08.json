@@ -1,0 +1,158 @@
+[
+  {
+    "query": "12 Cầu Giấy, Hà Nội",
+    "result": {
+      "formatted": null,
+      "coords": null,
+      "components": {},
+      "location_precision": "unknown",
+      "tool_status": "AMBIGUOUS",
+      "candidates": [
+        {
+          "ref_id": "vm:ADDRESS:B5ED1682BFC129E8",
+          "name": "12 Cầu Giấy",
+          "formatted": "12 Cầu Giấy Phường Láng Thượng,Quận Đống Đa,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Láng Thượng",
+            "district": "Quận Đống Đa",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vm:ADDRESS:D199889222964B3D",
+          "name": "2B Cầu Giấy",
+          "formatted": "2B Cầu Giấy Phường Láng Thượng,Quận Đống Đa,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Láng Thượng",
+            "district": "Quận Đống Đa",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vm:ADDRESS:E4CEE951F94B769B",
+          "name": "21 Cầu Giấy",
+          "formatted": "21 Cầu Giấy Phường Ngọc Khánh,Quận Ba Đình,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Ngọc Khánh",
+            "district": "Quận Ba Đình",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vm:ADDRESS:EB03BB4F47F9C77D",
+          "name": "14 Cầu Giấy",
+          "formatted": "14 Cầu Giấy Phường Láng Thượng,Quận Đống Đa,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Láng Thượng",
+            "district": "Quận Đống Đa",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vm:ADDRESS:1FA6643E35F6071D",
+          "name": "11 Cầu Giấy",
+          "formatted": "11 Cầu Giấy Phường Ngọc Khánh,Quận Ba Đình,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Ngọc Khánh",
+            "district": "Quận Ba Đình",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        }
+      ],
+      "clarification_kind": "ab"
+    }
+  },
+  {
+    "query": "FPT Shop 45 Thái Hà, Hà Nội",
+    "result": {
+      "formatted": null,
+      "coords": null,
+      "components": {},
+      "location_precision": "unknown",
+      "tool_status": "AMBIGUOUS",
+      "candidates": [
+        {
+          "ref_id": "vm:POI:9C89F94BD8E863B4",
+          "name": "FPT Shop",
+          "formatted": "FPT Shop 45 Thái Hà,Phường Trung Liệt,Quận Đống Đa,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Trung Liệt",
+            "district": "Quận Đống Đa",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vm:POI:8560764A86B20D92",
+          "name": "FPT Shop",
+          "formatted": "FPT Shop 216 Thái Hà,Phường Trung Liệt,Quận Đống Đa,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Trung Liệt",
+            "district": "Quận Đống Đa",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vm:POI:45HFGH8WM4CV413N",
+          "name": "Fpt Shop",
+          "formatted": "Fpt Shop Phố Thái Hà,Phường Trung Liệt,Quận Đống Đa,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Trung Liệt",
+            "district": "Quận Đống Đa",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vm:ADDRESS:F79CD958D83BEA2D",
+          "name": "45 Thái Hà",
+          "formatted": "45 Thái Hà Phường Trung Liệt,Quận Đống Đa,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Trung Liệt",
+            "district": "Quận Đống Đa",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vm:ADDRESS:C1D5CF8570257C21",
+          "name": "45 Ngõ Thái Hà",
+          "formatted": "45 Ngõ Thái Hà Phường Láng Hạ,Quận Đống Đa,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Láng Hạ",
+            "district": "Quận Đống Đa",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        }
+      ],
+      "clarification_kind": "ab"
+    }
+  }
+]

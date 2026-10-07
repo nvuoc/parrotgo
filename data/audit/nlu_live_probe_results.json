@@ -1,0 +1,75 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "request_timeout_seconds": 20,
+  "request_max_retries": 0,
+  "reference_time": "2026-10-08T10:00:00+07:00",
+  "network": "Real authenticated provider requests; API keys and exception bodies omitted",
+  "observations": [
+    {
+      "utterance": "đi vincom",
+      "elapsed_seconds": 2.58,
+      "intents": [
+        "provide_info"
+      ],
+      "slots": {
+        "destination": "vincom"
+      },
+      "verdict": "pass"
+    },
+    {
+      "utterance": "ở Hà Nội",
+      "elapsed_seconds": 1.8,
+      "intents": [
+        "provide_info"
+      ],
+      "slots": {
+        "session_city": "Hà Nội",
+        "destination": "Vincom Bà Triệu"
+      },
+      "metadata": {
+        "operation": "augment",
+        "component_type": "city",
+        "address_city": "Hà Nội"
+      },
+      "verdict": "Observed city augment value drift; subsequent canonicalization uses address_city and regression test passes. This exact live request was not repeated after that fix."
+    },
+    {
+      "utterance": "Nãy tôi đặt đi đâu?",
+      "elapsed_seconds": 1.05,
+      "intents": [
+        "ask_question"
+      ],
+      "extracted_slots": [],
+      "verdict": "pass; existing booking not mutated"
+    },
+    {
+      "utterance": "mai 9 giờ",
+      "elapsed_seconds": 5.1,
+      "slots": {
+        "pickup_time": "mai 9 giờ"
+      },
+      "normalized_time": "2026-10-09T09:00:00+07:00",
+      "verdict": "pass"
+    },
+    {
+      "utterance": "không cần xe bảy chỗ, bốn chỗ thôi",
+      "elapsed_seconds": 1.06,
+      "intents": [
+        "change_info"
+      ],
+      "slots": {
+        "vehicle_type": "oto_4_cho"
+      },
+      "verdict": "pass"
+    }
+  ],
+  "validation": {
+    "command": "python -m pytest tests/test_extractor.py tests/test_qa.py tests/test_nlu_regressions.py tests/test_faq_confirmation.py -q -p no:cacheprovider",
+    "result": "61 passed in 2.07s"
+  },
+  "limitations": [
+    "No provider outage was induced on the real network; timeout and no mock fallback verified with stubbed failure tests.",
+    "No comparison against another model or provider was performed."
+  ]
+}

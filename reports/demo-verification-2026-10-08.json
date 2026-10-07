@@ -1,0 +1,46 @@
+{
+  "checked_on": "2026-10-08",
+  "pytest": {
+    "command": ".venv/Scripts/python.exe -m pytest -q",
+    "exit_code": 0,
+    "passed": 150,
+    "duration_seconds": 39.9,
+    "warnings": [
+      "Chroma telemetry uses deprecated asyncio.iscoroutinefunction",
+      "Pytest cache creation warning on Windows; tests still passed"
+    ]
+  },
+  "ruff": {
+    "command": ".venv/Scripts/python.exe -m ruff check --select E9,F src scripts tests",
+    "exit_code": 0,
+    "result": "All checks passed"
+  },
+  "data_validation": {
+    "places": 5,
+    "aliases": 20,
+    "gates": 2,
+    "streets": 3,
+    "faq_chunks": 9,
+    "approved_faqs": 7,
+    "vector_records": 56,
+    "seed_and_snapshot_valid": true
+  },
+  "live": {
+    "checks": 28,
+    "passed": true,
+    "elapsed_seconds": 26.387,
+    "evidence": "live-demo-check-2026-10-08.json",
+    "llm_provider": "gemini",
+    "map_provider": "vietmap_live"
+  },
+  "rag_persistent": {
+    "checks": 17,
+    "passed": true,
+    "evidence": "rag_recall_verification.json"
+  },
+  "configuration": {
+    "map_mode": "live",
+    "llm_mode": "gemini",
+    "rag_enabled": true
+  }
+}

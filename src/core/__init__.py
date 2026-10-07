@@ -1,0 +1,1 @@
+"""ParrotGo Core module."""

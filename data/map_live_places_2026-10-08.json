@@ -1,0 +1,165 @@
+[
+  {
+    "search": {
+      "ref_id": "vmg:POI:GGM1228YJOO692DHY2YYIB80R5YMP4NAGQNM",
+      "distance": 0,
+      "address": "191 Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+      "name": "Vincom Center Bà Triệu",
+      "display": "Vincom Center Bà Triệu 191 Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+      "boundaries": [
+        {
+          "type": 2,
+          "id": 721675,
+          "name": "Lê Đại Hành",
+          "prefix": "Phường",
+          "full_name": "Phường Lê Đại Hành"
+        },
+        {
+          "type": 1,
+          "id": 779,
+          "name": "Hai Bà Trưng",
+          "prefix": "Quận",
+          "full_name": "Quận Hai Bà Trưng"
+        },
+        {
+          "type": 0,
+          "id": 11,
+          "name": "Hà Nội",
+          "prefix": "Thành Phố",
+          "full_name": "Thành Phố Hà Nội"
+        }
+      ],
+      "categories": [],
+      "entry_points": []
+    },
+    "status": 200,
+    "detail": {
+      "display": "Vincom Center Bà Triệu 191 Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+      "name": "Vincom Center Bà Triệu",
+      "hs_num": "191",
+      "street": "Phố Bà Triệu",
+      "address": "191 Phố Bà Triệu",
+      "city_id": 11,
+      "city": "Thành Phố Hà Nội",
+      "district_id": 779,
+      "district": "Quận Hai Bà Trưng",
+      "ward_id": 721675,
+      "ward": "Phường Lê Đại Hành",
+      "lat": 21.010879,
+      "lng": 105.849579
+    }
+  },
+  {
+    "search": {
+      "ref_id": "vm:POI:D74513153738FDEE",
+      "distance": 0,
+      "address": "72A Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+      "name": "Vincom Mega Mall Royal City",
+      "display": "Vincom Mega Mall Royal City 72A Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+      "boundaries": [
+        {
+          "type": 2,
+          "id": 330251,
+          "name": "Thượng Đình",
+          "prefix": "Phường",
+          "full_name": "Phường Thượng Đình"
+        },
+        {
+          "type": 1,
+          "id": 2571,
+          "name": "Thanh Xuân",
+          "prefix": "Quận",
+          "full_name": "Quận Thanh Xuân"
+        },
+        {
+          "type": 0,
+          "id": 11,
+          "name": "Hà Nội",
+          "prefix": "Thành Phố",
+          "full_name": "Thành Phố Hà Nội"
+        }
+      ],
+      "categories": [
+        "3001"
+      ],
+      "entry_points": []
+    },
+    "status": 200,
+    "detail": {
+      "display": "Vincom Mega Mall Royal City 72A Đường Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+      "name": "Vincom Mega Mall Royal City",
+      "hs_num": "72A",
+      "street": "Đường Nguyễn Trãi",
+      "address": "72A Đường Nguyễn Trãi",
+      "city_id": 11,
+      "city": "Thành Phố Hà Nội",
+      "district_id": 2571,
+      "district": "Quận Thanh Xuân",
+      "ward_id": 330251,
+      "ward": "Phường Thượng Đình",
+      "lat": 21.001124,
+      "lng": 105.816667
+    }
+  },
+  {
+    "search": {
+      "ref_id": "vm:POI:EA1E5CDC789399E2",
+      "distance": 0,
+      "address": "216 Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+      "name": "Vincom Plaza Thủ Đức",
+      "display": "Vincom Plaza Thủ Đức 216 Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+      "boundaries": [
+        {
+          "type": 2,
+          "id": 398092,
+          "name": "Bình Thọ",
+          "prefix": "Phường",
+          "full_name": "Phường Bình Thọ"
+        },
+        {
+          "type": 1,
+          "id": 4876,
+          "name": "Thủ Đức",
+          "prefix": "Thành Phố",
+          "full_name": "Thành Phố Thủ Đức"
+        },
+        {
+          "type": 0,
+          "id": 12,
+          "name": "Hồ Chí Minh",
+          "prefix": "Thành Phố",
+          "full_name": "Thành Phố Hồ Chí Minh"
+        }
+      ],
+      "categories": [
+        "3001"
+      ],
+      "entry_points": [
+        {
+          "ref_id": "vm:ENTRY_POINT:1EC2FA9D7C950941",
+          "name": "Cổng Chính-Võ Văn Ngân"
+        },
+        {
+          "ref_id": "vm:ENTRY_POINT:761C7DDE548C05FA",
+          "name": "Cổng Sau-Đường Số 5"
+        }
+      ]
+    },
+    "status": 200,
+    "detail": {
+      "display": "Vincom Plaza Thủ Đức 216 Đường Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+      "name": "Vincom Plaza Thủ Đức",
+      "hs_num": "216",
+      "street": "Đường Võ Văn Ngân",
+      "address": "216 Đường Võ Văn Ngân",
+      "city_id": 12,
+      "city": "Thành Phố Hồ Chí Minh",
+      "district_id": 4876,
+      "district": "Thành Phố Thủ Đức",
+      "ward_id": 398092,
+      "ward": "Phường Bình Thọ",
+      "lat": 10.850559,
+      "lng": 106.765306
+    }
+  }
+]

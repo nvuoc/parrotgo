@@ -1,0 +1,29 @@
+[
+  {
+    "command": [
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider"
+    ],
+    "exit_code": 0,
+    "stdout": "........................................................................ [ 34%]\n........................................................................ [ 69%]\n..............................................................           [100%]\n============================== warnings summary ===============================\ntests/test_db_layer.py::test_chroma_empty_safe\n  E:\\ParrotGo\\.venv\\Lib\\site-packages\\chromadb\\telemetry\\opentelemetry\\__init__.py:128: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead\n    if asyncio.iscoroutinefunction(f):\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n206 passed, 1 warning in 41.42s\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "-m",
+      "ruff",
+      "check",
+      "--select",
+      "E9,F",
+      "src",
+      "scripts",
+      "tests"
+    ],
+    "exit_code": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  }
+]

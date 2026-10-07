@@ -1,0 +1,235 @@
+{
+  "places": [
+    {
+      "place_id": "times_city",
+      "canonical_name": "Vinhomes Times City",
+      "formatted_address": "458 Minh Khai, Vĩnh Tuy, Hai Bà Trưng, Hà Nội",
+      "city": "Hà Nội",
+      "lat": 20.995,
+      "lng": 105.867,
+      "poi_type": "mega_poi",
+      "is_mega_poi": true,
+      "components": {
+        "detail": "458",
+        "street": "Minh Khai",
+        "ward": "Vĩnh Tuy",
+        "district": "Hai Bà Trưng",
+        "province_city": "Hà Nội"
+      },
+      "driver_note": null,
+      "source": "verified_poi",
+      "verified": true
+    },
+    {
+      "place_id": "noi_bai",
+      "canonical_name": "Sân bay Quốc tế Nội Bài",
+      "formatted_address": "Sân bay Quốc tế Nội Bài, Phú Cường, Sóc Sơn, Hà Nội",
+      "city": "Hà Nội",
+      "lat": 21.2212,
+      "lng": 105.8072,
+      "poi_type": "mega_poi",
+      "is_mega_poi": true,
+      "components": {
+        "ward": "Phú Cường",
+        "district": "Sóc Sơn",
+        "province_city": "Hà Nội"
+      },
+      "driver_note": null,
+      "source": "verified_poi",
+      "verified": true
+    },
+    {
+      "place_id": "vincom_ba_trieu_hn",
+      "canonical_name": "Vincom Center Bà Triệu",
+      "formatted_address": "Vincom Center Bà Triệu 191 Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+      "city": "Thành Phố Hà Nội",
+      "lat": 21.010879,
+      "lng": 105.849579,
+      "poi_type": "mall",
+      "is_mega_poi": true,
+      "components": {
+        "detail": "191",
+        "street": "Phố Bà Triệu",
+        "ward": "Phường Lê Đại Hành",
+        "district": "Quận Hai Bà Trưng",
+        "province_city": "Thành Phố Hà Nội"
+      },
+      "driver_note": null,
+      "source": "vietmap_place_v3_2026-10-08",
+      "verified": true
+    },
+    {
+      "place_id": "vincom_royal_city_hn",
+      "canonical_name": "Vincom Mega Mall Royal City",
+      "formatted_address": "Vincom Mega Mall Royal City 72A Đường Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+      "city": "Thành Phố Hà Nội",
+      "lat": 21.001124,
+      "lng": 105.816667,
+      "poi_type": "mall",
+      "is_mega_poi": true,
+      "components": {
+        "detail": "72A",
+        "street": "Đường Nguyễn Trãi",
+        "ward": "Phường Thượng Đình",
+        "district": "Quận Thanh Xuân",
+        "province_city": "Thành Phố Hà Nội"
+      },
+      "driver_note": null,
+      "source": "vietmap_place_v3_2026-10-08",
+      "verified": true
+    },
+    {
+      "place_id": "vincom_thu_duc_hcm",
+      "canonical_name": "Vincom Plaza Thủ Đức",
+      "formatted_address": "Vincom Plaza Thủ Đức 216 Đường Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+      "city": "Thành Phố Hồ Chí Minh",
+      "lat": 10.850559,
+      "lng": 106.765306,
+      "poi_type": "mall",
+      "is_mega_poi": true,
+      "components": {
+        "detail": "216",
+        "street": "Đường Võ Văn Ngân",
+        "ward": "Phường Bình Thọ",
+        "district": "Thành Phố Thủ Đức",
+        "province_city": "Thành Phố Hồ Chí Minh"
+      },
+      "driver_note": null,
+      "source": "vietmap_place_v3_2026-10-08",
+      "verified": true
+    }
+  ],
+  "aliases": [
+    {
+      "alias_key": "times city",
+      "place_id": "times_city"
+    },
+    {
+      "alias_key": "noi bai",
+      "place_id": "noi_bai"
+    },
+    {
+      "alias_key": "san bay noi bai",
+      "place_id": "noi_bai"
+    },
+    {
+      "alias_key": "vincom",
+      "place_id": "vincom_ba_trieu_hn"
+    },
+    {
+      "alias_key": "vincom hà nội",
+      "place_id": "vincom_ba_trieu_hn"
+    },
+    {
+      "alias_key": "vincom center",
+      "place_id": "vincom_ba_trieu_hn"
+    },
+    {
+      "alias_key": "vincom bà triệu",
+      "place_id": "vincom_ba_trieu_hn"
+    },
+    {
+      "alias_key": "vincom center bà triệu",
+      "place_id": "vincom_ba_trieu_hn"
+    },
+    {
+      "alias_key": "vincom",
+      "place_id": "vincom_royal_city_hn"
+    },
+    {
+      "alias_key": "vincom hà nội",
+      "place_id": "vincom_royal_city_hn"
+    },
+    {
+      "alias_key": "vincom mega mall",
+      "place_id": "vincom_royal_city_hn"
+    },
+    {
+      "alias_key": "royal city",
+      "place_id": "vincom_royal_city_hn"
+    },
+    {
+      "alias_key": "vincom royal city",
+      "place_id": "vincom_royal_city_hn"
+    },
+    {
+      "alias_key": "vincom mega mall royal city",
+      "place_id": "vincom_royal_city_hn"
+    },
+    {
+      "alias_key": "vincom",
+      "place_id": "vincom_thu_duc_hcm"
+    },
+    {
+      "alias_key": "vincom hcm",
+      "place_id": "vincom_thu_duc_hcm"
+    },
+    {
+      "alias_key": "vincom hồ chí minh",
+      "place_id": "vincom_thu_duc_hcm"
+    },
+    {
+      "alias_key": "vincom plaza",
+      "place_id": "vincom_thu_duc_hcm"
+    },
+    {
+      "alias_key": "vincom thủ đức",
+      "place_id": "vincom_thu_duc_hcm"
+    },
+    {
+      "alias_key": "vincom plaza thủ đức",
+      "place_id": "vincom_thu_duc_hcm"
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "times_gate_t1",
+      "place_id": "times_city",
+      "gate_code": "Cổng T1",
+      "gate_key": "cong t1",
+      "lat": 20.996,
+      "lng": 105.868,
+      "is_default_pickup": true,
+      "is_default_dropoff": true,
+      "driver_instruction": "Đón khách tại sảnh T1 Times City",
+      "source": "demo_fixture",
+      "verified": false
+    },
+    {
+      "gate_id": "noi_bai_sanh_e",
+      "place_id": "noi_bai",
+      "gate_code": "Cột 9 sảnh E",
+      "gate_key": "cot 9 sanh e",
+      "lat": 21.2215,
+      "lng": 105.8075,
+      "is_default_pickup": true,
+      "is_default_dropoff": true,
+      "driver_instruction": "Đón khách tại Cột 9 sảnh E tầng 2",
+      "source": "demo_fixture",
+      "verified": false
+    }
+  ],
+  "streets": [
+    {
+      "street_id": "cau_giay",
+      "city": "Hà Nội",
+      "street_name": "Cầu Giấy",
+      "source": "verified_poi",
+      "verified": true
+    },
+    {
+      "street_id": "le_van_luong",
+      "city": "Hà Nội",
+      "street_name": "Lê Văn Lương",
+      "source": "verified_poi",
+      "verified": true
+    },
+    {
+      "street_id": "minh_khai",
+      "city": "Hà Nội",
+      "street_name": "Minh Khai",
+      "source": "verified_poi",
+      "verified": true
+    }
+  ]
+}

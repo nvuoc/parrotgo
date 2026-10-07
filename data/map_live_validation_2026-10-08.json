@@ -1,0 +1,102 @@
+[
+  {
+    "query": "12 Cầu Giấy, Hà Nội",
+    "result": {
+      "formatted": "12 Đường Cầu Giấy,Phường Láng Thượng,Quận Đống Đa,Thành Phố Hà Nội",
+      "coords": {
+        "lat": 21.029254,
+        "lng": 105.802346
+      },
+      "components": {
+        "detail": "12",
+        "street": "Đường Cầu Giấy",
+        "ward": "Phường Láng Thượng",
+        "district": "Quận Đống Đa",
+        "province_city": "Thành Phố Hà Nội"
+      },
+      "location_precision": "exact",
+      "tool_status": "SUCCESS",
+      "candidates": [],
+      "place_id": "vm:ADDRESS:B5ED1682BFC129E8",
+      "is_mega_poi": false
+    }
+  },
+  {
+    "query": "vincom",
+    "result": {
+      "formatted": null,
+      "coords": null,
+      "components": {},
+      "location_precision": "unknown",
+      "tool_status": "AMBIGUOUS",
+      "candidates": [
+        {
+          "ref_id": "vm:POI:70158BC3CEBF98B9",
+          "name": "Vincom Nam Đàn",
+          "formatted": "Vincom Nam Đàn Thị Trấn Nam Đàn,Huyện Nam Đàn,Tỉnh Nghệ An",
+          "city": "Tỉnh Nghệ An",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Thị Trấn Nam Đàn",
+            "district": "Huyện Nam Đàn",
+            "province_city": "Tỉnh Nghệ An"
+          }
+        },
+        {
+          "ref_id": "vmg:POI:GGM1228F7S3PRSKPFLE90JEH3PG3L50P76PR",
+          "name": "Vincom Hồng Mai",
+          "formatted": "Vincom Hồng Mai Phường Quỳnh Lôi,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Quỳnh Lôi",
+            "district": "Quận Hai Bà Trưng",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vmg:POI:GGM10200GNULQ5O7NH5GHKYRXYNAI633PQIT",
+          "name": "Vincom Center Tdh",
+          "formatted": "Vincom Center Tdh Phường Mễ Trì,Quận Nam Từ Liêm,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Mễ Trì",
+            "district": "Quận Nam Từ Liêm",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vmg:POI:568d74ee-8d7d-42b7-a602-13794ccac187",
+          "name": "Milano Vincom",
+          "formatted": "Milano Vincom Phường Đông Lương,Thành Phố Đông Hà,Tỉnh Quảng Trị",
+          "city": "Tỉnh Quảng Trị",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Đông Lương",
+            "district": "Thành Phố Đông Hà",
+            "province_city": "Tỉnh Quảng Trị"
+          }
+        },
+        {
+          "ref_id": "vmg:POI:6b0139d8-e62c-4393-b076-84e5dca7779b",
+          "name": "Vuivuiland Vincom",
+          "formatted": "Vuivuiland Vincom Phường Đồng Tiến,Thành Phố Phổ Yên,Tỉnh Thái Nguyên",
+          "city": "Tỉnh Thái Nguyên",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Đồng Tiến",
+            "district": "Thành Phố Phổ Yên",
+            "province_city": "Tỉnh Thái Nguyên"
+          }
+        }
+      ],
+      "clarification_kind": "city"
+    }
+  }
+]

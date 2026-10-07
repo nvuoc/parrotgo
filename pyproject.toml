@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parrotgo"
+version = "0.1.0"
+description = "ParrotGo: Smart Voice Taxi Booking System MVP"
+authors = [{ name = "ParrotGo Team" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langgraph>=1.2.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "chromadb>=0.5.0",
+    "rapidfuzz>=3.0.0",
+    "rich>=13.0.0",
+    "httpx>=0.27.0",
+    "tzdata>=2024.1",
+    "typing_extensions>=4.10.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

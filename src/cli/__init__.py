@@ -1,0 +1,1 @@
+"""ParrotGo CLI package."""

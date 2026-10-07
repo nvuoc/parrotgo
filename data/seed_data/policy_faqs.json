@@ -1,0 +1,351 @@
+[
+  {
+    "id": "faq_pet_policy",
+    "document": "Quy định mang theo thú cưng, chó, mèo khi đặt xe trên ParrotGo",
+    "metadata": {
+      "category": "policy",
+      "sub_intent": "pet",
+      "vehicle_type": "all",
+      "canonical_answer": "Dạ hiện tại em chưa có quy định đã được xác nhận về việc mang theo thú cưng ạ.",
+      "source": "unverified_sample",
+      "version": "v2",
+      "approved": false
+    }
+  },
+  {
+    "id": "faq_child_seat",
+    "document": "Quy định về ghế trẻ em và an toàn cho trẻ nhỏ trên ô tô",
+    "metadata": {
+      "category": "policy",
+      "sub_intent": "child_seat",
+      "vehicle_type": "all",
+      "canonical_answer": "Dạ hiện tại em chưa có thông tin đã được xác nhận về ghế trẻ em ạ.",
+      "source": "unverified_sample",
+      "version": "v2",
+      "approved": false
+    }
+  },
+  {
+    "id": "faq_supported_vehicles",
+    "document": "ParrotGo hỗ trợ những loại xe nào?",
+    "questions": [
+      "Có những loại xe nào?",
+      "Có xe máy không?",
+      "Có xe bốn chỗ không?",
+      "Có xe bảy chỗ không?",
+      "Tôi có thể đặt xe mấy chỗ?",
+      "Dịch vụ có các loại xe gì?"
+    ],
+    "keywords": [
+      "loại xe",
+      "xe gì",
+      "xe nào",
+      "xe máy",
+      "bốn chỗ",
+      "bảy chỗ",
+      "4 chỗ",
+      "7 chỗ",
+      "mấy chỗ"
+    ],
+    "metadata": {
+      "category": "booking_help",
+      "sub_intent": "vehicle_types",
+      "vehicle_type": "all",
+      "canonical_answer": "Dạ mình có thể chọn xe máy, ô tô bốn chỗ hoặc ô tô bảy chỗ ạ.",
+      "source": "architecture.md#2",
+      "version": "mvp-v1",
+      "approved": true
+    },
+    "excluded_keywords": [
+      "thú cưng",
+      "chó",
+      "mèo",
+      "vật nuôi",
+      "ghế trẻ em",
+      "trẻ nhỏ",
+      "trẻ em",
+      "em bé",
+      "giá",
+      "phí",
+      "cước",
+      "mang chó",
+      "chở chó",
+      "chó lên xe"
+    ]
+  },
+  {
+    "id": "faq_booking_information",
+    "document": "Tôi cần cung cấp thông tin gì để đặt xe?",
+    "questions": [
+      "Đặt xe cần những thông tin gì?",
+      "Cần nói gì để đặt xe?",
+      "Tôi cần cung cấp gì?",
+      "Thông tin nào là bắt buộc khi đặt xe?"
+    ],
+    "keywords": [
+      "thông tin",
+      "cung cấp",
+      "cần nói gì",
+      "cần gì"
+    ],
+    "metadata": {
+      "category": "booking_help",
+      "sub_intent": "required_information",
+      "vehicle_type": "all",
+      "canonical_answer": "Dạ mình cho em điểm đón cụ thể, điểm đến và loại xe muốn đi. Nếu cần đón theo giờ hẹn, mình nói thêm ngày và giờ đón giúp em ạ.",
+      "source": "architecture.md#2",
+      "version": "mvp-v1",
+      "approved": true
+    },
+    "excluded_keywords": [
+      "thú cưng",
+      "chó",
+      "mèo",
+      "vật nuôi",
+      "ghế trẻ em",
+      "trẻ nhỏ",
+      "trẻ em",
+      "em bé",
+      "giá",
+      "phí",
+      "cước",
+      "mang chó",
+      "chở chó",
+      "chó lên xe"
+    ]
+  },
+  {
+    "id": "faq_booking_saved_only",
+    "document": "Đặt xe thành công nghĩa là gì trong bản demo?",
+    "questions": [
+      "Hệ thống đã điều tài xế chưa?",
+      "Đã có tài xế nhận chuyến chưa?",
+      "Demo có gọi tài xế thật không?",
+      "Bản demo có điều xe thật không?",
+      "Lưu yêu cầu thành công nghĩa là gì?",
+      "Đặt xe xong thì tài xế đã được gọi chưa?"
+    ],
+    "keywords": [
+      "thành công",
+      "tài xế",
+      "điều xe",
+      "demo",
+      "lưu yêu cầu"
+    ],
+    "metadata": {
+      "category": "booking_help",
+      "sub_intent": "demo_scope",
+      "vehicle_type": "all",
+      "canonical_answer": "Dạ bản demo chỉ lưu yêu cầu đặt xe sau khi mình xác nhận. Hiện chưa kết nối hệ thống điều xe hoặc tài xế ạ.",
+      "source": "architecture.md#1",
+      "version": "mvp-v1",
+      "approved": true
+    },
+    "excluded_keywords": [
+      "thú cưng",
+      "chó",
+      "mèo",
+      "vật nuôi",
+      "ghế trẻ em",
+      "trẻ nhỏ",
+      "trẻ em",
+      "em bé",
+      "giá",
+      "phí",
+      "cước",
+      "mang chó",
+      "chở chó",
+      "chó lên xe"
+    ]
+  },
+  {
+    "id": "faq_scheduled_pickup",
+    "document": "Có thể hẹn giờ đón không?",
+    "questions": [
+      "Có thể đặt xe theo giờ hẹn không?",
+      "Tôi muốn hẹn giờ đón thì cần nói gì?",
+      "Đặt xe cho ngày mai được không?",
+      "Có hỗ trợ đón theo lịch hẹn không?",
+      "Có thể hẹn xe đón vào ngày mai không?",
+      "Tôi muốn đặt chuyến đón vào ngày mai thì có được không?",
+      "Mình có thể hẹn xe đến đón vào một ngày khác không?",
+      "Muốn hẹn xe đón vào ngày mai thì cần nói gì?",
+      "Tôi muốn xe đón lúc bảy giờ tối hôm nay có được không?"
+    ],
+    "keywords": [
+      "giờ đón",
+      "giờ hẹn",
+      "hẹn giờ",
+      "lịch hẹn",
+      "ngày mai",
+      "lịch đón",
+      "hẹn đón",
+      "hẹn xe",
+      "ngày khác",
+      "lúc mấy giờ"
+    ],
+    "metadata": {
+      "category": "booking_help",
+      "sub_intent": "scheduled_pickup",
+      "vehicle_type": "all",
+      "canonical_answer": "Dạ mình có thể yêu cầu đón theo giờ hẹn. Mình cho em ngày và giờ cụ thể trong tương lai để em ghi nhận chính xác ạ.",
+      "source": "architecture.md#2; src/core/time_utils.py",
+      "version": "mvp-v1",
+      "approved": true
+    },
+    "excluded_keywords": [
+      "thú cưng",
+      "chó",
+      "mèo",
+      "vật nuôi",
+      "ghế trẻ em",
+      "trẻ nhỏ",
+      "trẻ em",
+      "em bé",
+      "giá",
+      "phí",
+      "cước",
+      "mang chó",
+      "chở chó",
+      "chó lên xe"
+    ]
+  },
+  {
+    "id": "faq_stopovers",
+    "document": "Tôi có thể thêm điểm dừng không?",
+    "questions": [
+      "Chuyến đi có thể ghé qua một chỗ không?",
+      "Có hỗ trợ nhiều điểm dừng không?",
+      "Tôi muốn ghé thêm một địa chỉ trên đường thì có được không?",
+      "Tôi có thể bỏ điểm dừng đã nói không?",
+      "Trên đường có thể ghé thêm một nơi không?",
+      "Tôi muốn ghé một địa điểm trước khi tới nơi thì nói thế nào?",
+      "Tôi muốn ghé thêm một chỗ trên đường được không?",
+      "Tôi có thể yêu cầu xe dừng thêm một chỗ trên đường không?",
+      "Tôi có thể đi qua nhiều địa chỉ trong một chuyến không?"
+    ],
+    "keywords": [
+      "điểm dừng",
+      "ghé qua",
+      "ghé thêm",
+      "dừng ở",
+      "bỏ điểm dừng",
+      "ghé",
+      "đi qua",
+      "dừng thêm"
+    ],
+    "metadata": {
+      "category": "booking_help",
+      "sub_intent": "stopovers",
+      "vehicle_type": "all",
+      "canonical_answer": "Dạ mình có thể thêm hoặc bỏ điểm dừng trước khi xác nhận yêu cầu. Mình nói rõ địa chỉ và thứ tự các điểm muốn ghé, em sẽ đọc lại trong tóm tắt ạ.",
+      "source": "architecture.md#2; planner.md#5",
+      "version": "mvp-v1",
+      "approved": true
+    },
+    "excluded_keywords": [
+      "thú cưng",
+      "chó",
+      "mèo",
+      "vật nuôi",
+      "ghế trẻ em",
+      "trẻ nhỏ",
+      "trẻ em",
+      "em bé",
+      "giá",
+      "phí",
+      "cước",
+      "mang chó",
+      "chở chó",
+      "chó lên xe"
+    ]
+  },
+  {
+    "id": "faq_modify_before_confirmation",
+    "document": "Tôi có thể sửa thông tin trước khi xác nhận không?",
+    "questions": [
+      "Tôi có thể thay đổi thông tin chuyến đi không?",
+      "Có thể đổi loại xe trước khi xác nhận không?",
+      "Có thể sửa địa chỉ đón trước khi đặt xong không?",
+      "Nếu tóm tắt sai thì tôi cần làm gì?",
+      "Tôi muốn thay điểm đến thì cần làm gì?",
+      "Tôi muốn đổi nơi đón thì phải nói thế nào?",
+      "Tôi cần làm gì để thay loại xe đã chọn?",
+      "Tôi muốn đổi giờ đón đã nói thì làm sao?",
+      "Thay đổi thông tin đã ghi nhận trước khi xác nhận được không?"
+    ],
+    "keywords": [
+      "sửa",
+      "thay đổi",
+      "đổi",
+      "tóm tắt sai",
+      "thay",
+      "điều chỉnh"
+    ],
+    "metadata": {
+      "category": "booking_help",
+      "sub_intent": "modify_booking",
+      "vehicle_type": "all",
+      "canonical_answer": "Dạ trước khi xác nhận, mình nói rõ thông tin cần sửa và giá trị mới. Em sẽ cập nhật rồi đọc lại tóm tắt để mình kiểm tra ạ.",
+      "source": "planner.md#3",
+      "version": "mvp-v1",
+      "approved": true
+    },
+    "excluded_keywords": [
+      "thú cưng",
+      "chó",
+      "mèo",
+      "vật nuôi",
+      "ghế trẻ em",
+      "trẻ nhỏ",
+      "trẻ em",
+      "em bé",
+      "giá",
+      "phí",
+      "cước",
+      "mang chó",
+      "chở chó",
+      "chó lên xe"
+    ]
+  },
+  {
+    "id": "faq_cancel_before_confirmation",
+    "document": "Tôi có thể hủy yêu cầu trước khi xác nhận không?",
+    "questions": [
+      "Nếu không muốn đặt nữa thì làm thế nào?",
+      "Có thể hủy yêu cầu đặt xe trong phiên này không?",
+      "Hủy yêu cầu trong demo như thế nào?",
+      "Tôi phải xác nhận hủy không?"
+    ],
+    "keywords": [
+      "hủy",
+      "không muốn đặt nữa",
+      "không đặt nữa"
+    ],
+    "metadata": {
+      "category": "booking_help",
+      "sub_intent": "cancel_booking",
+      "vehicle_type": "all",
+      "canonical_answer": "Dạ nếu muốn hủy yêu cầu trong phiên này, mình nói yêu cầu hủy. Em sẽ hỏi lại để mình xác nhận trước khi kết thúc phiên ạ.",
+      "source": "planner.md#3",
+      "version": "mvp-v1",
+      "approved": true
+    },
+    "excluded_keywords": [
+      "thú cưng",
+      "chó",
+      "mèo",
+      "vật nuôi",
+      "ghế trẻ em",
+      "trẻ nhỏ",
+      "trẻ em",
+      "em bé",
+      "giá",
+      "phí",
+      "cước",
+      "mang chó",
+      "chở chó",
+      "chó lên xe"
+    ]
+  }
+]

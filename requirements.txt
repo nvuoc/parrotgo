@@ -1,0 +1,19 @@
+# Core dependencies for ParrotGo
+langgraph==1.2.12
+langgraph-checkpoint==4.2.0
+pydantic==2.13.5
+pydantic-settings==2.15.0
+chromadb==1.5.9
+rapidfuzz==3.14.6
+rich==15.0.0
+httpx==0.28.1
+tzdata==2026.5
+typing_extensions==4.16.0
+python-dotenv==1.2.3
+
+# Optional LLM providers
+google-genai==2.23.0
+openai==3.13.0
+
+# Testing
+pytest==9.1.1

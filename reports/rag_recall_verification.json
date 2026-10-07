@@ -1,0 +1,286 @@
+{
+  "checked_at": "2026-10-08T00:45:41.681726+07:00",
+  "storage": "persistent_local_chroma",
+  "collection": "parrotgo_faq",
+  "chroma_data_dir": "data/chroma_data",
+  "manifest": {
+    "embedding_metric": "cosine",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dimensions": 384,
+    "embedding_provider": "onnx",
+    "embedding_schema": "parrotgo-faq-v2"
+  },
+  "faq_chunks": 9,
+  "approved_faqs": 7,
+  "vector_records": 56,
+  "thresholds": {
+    "high": 0.82,
+    "low": 0.65
+  },
+  "backup_before_recall": "data/backups/faq_before_recall_20261008_004421.json",
+  "tests": {
+    "pytest": "8 passed in 33.41s",
+    "ruff": "All checks passed"
+  },
+  "all_passed": true,
+  "checks": [
+    {
+      "question": "Muốn hẹn đón vào ngày mai có được không?",
+      "expected_faq_id": "faq_scheduled_pickup",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": true,
+        "answer_text": "Dạ mình có thể yêu cầu đón theo giờ hẹn. Mình cho em ngày và giờ cụ thể trong tương lai để em ghi nhận chính xác ạ.",
+        "source": "architecture.md#2; src/core/time_utils.py",
+        "metadata": {
+          "chunk_id": "faq_scheduled_pickup",
+          "score": 0.9145,
+          "version": "mvp-v1"
+        }
+      }
+    },
+    {
+      "question": "Trên đường tôi muốn ghé thêm một chỗ được không?",
+      "expected_faq_id": "faq_stopovers",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": true,
+        "answer_text": "Dạ mình có thể thêm hoặc bỏ điểm dừng trước khi xác nhận yêu cầu. Mình nói rõ địa chỉ và thứ tự các điểm muốn ghé, em sẽ đọc lại trong tóm tắt ạ.",
+        "source": "architecture.md#2; planner.md#5",
+        "metadata": {
+          "chunk_id": "faq_stopovers",
+          "score": 0.9873,
+          "version": "mvp-v1"
+        }
+      }
+    },
+    {
+      "question": "Tôi muốn thay điểm đến thì làm sao?",
+      "expected_faq_id": "faq_modify_before_confirmation",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": true,
+        "answer_text": "Dạ trước khi xác nhận, mình nói rõ thông tin cần sửa và giá trị mới. Em sẽ cập nhật rồi đọc lại tóm tắt để mình kiểm tra ạ.",
+        "source": "planner.md#3",
+        "metadata": {
+          "chunk_id": "faq_modify_before_confirmation",
+          "score": 0.9331,
+          "version": "mvp-v1"
+        }
+      }
+    },
+    {
+      "question": "Có thể hẹn xe tới đón ngày mai được không?",
+      "expected_faq_id": "faq_scheduled_pickup",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": true,
+        "answer_text": "Dạ mình có thể yêu cầu đón theo giờ hẹn. Mình cho em ngày và giờ cụ thể trong tương lai để em ghi nhận chính xác ạ.",
+        "source": "architecture.md#2; src/core/time_utils.py",
+        "metadata": {
+          "chunk_id": "faq_scheduled_pickup",
+          "score": 0.9413,
+          "version": "mvp-v1"
+        }
+      }
+    },
+    {
+      "question": "Mình muốn ghé một nơi trên đường trước khi tới điểm đến được không?",
+      "expected_faq_id": "faq_stopovers",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": true,
+        "answer_text": "Dạ mình có thể thêm hoặc bỏ điểm dừng trước khi xác nhận yêu cầu. Mình nói rõ địa chỉ và thứ tự các điểm muốn ghé, em sẽ đọc lại trong tóm tắt ạ.",
+        "source": "architecture.md#2; planner.md#5",
+        "metadata": {
+          "chunk_id": "faq_stopovers",
+          "score": 0.8854,
+          "version": "mvp-v1"
+        }
+      }
+    },
+    {
+      "question": "Nếu muốn thay chỗ đón đã nói thì phải làm gì?",
+      "expected_faq_id": "faq_modify_before_confirmation",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": true,
+        "answer_text": "Dạ trước khi xác nhận, mình nói rõ thông tin cần sửa và giá trị mới. Em sẽ cập nhật rồi đọc lại tóm tắt để mình kiểm tra ạ.",
+        "source": "planner.md#3",
+        "metadata": {
+          "chunk_id": "faq_modify_before_confirmation",
+          "score": 0.8811,
+          "version": "mvp-v1"
+        }
+      }
+    },
+    {
+      "question": "Tôi muốn ghé thêm một chỗ để mua đồ rồi đi tiếp có được không?",
+      "expected_faq_id": "faq_stopovers",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": true,
+        "answer_text": "Dạ mình có thể thêm hoặc bỏ điểm dừng trước khi xác nhận yêu cầu. Mình nói rõ địa chỉ và thứ tự các điểm muốn ghé, em sẽ đọc lại trong tóm tắt ạ.",
+        "source": "architecture.md#2; planner.md#5",
+        "metadata": {
+          "chunk_id": "faq_stopovers",
+          "score": 0.9111,
+          "version": "mvp-v1"
+        }
+      }
+    },
+    {
+      "question": "Tôi có thể điều chỉnh địa chỉ đến khi chưa xác nhận không?",
+      "expected_faq_id": "faq_modify_before_confirmation",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": true,
+        "answer_text": "Dạ trước khi xác nhận, mình nói rõ thông tin cần sửa và giá trị mới. Em sẽ cập nhật rồi đọc lại tóm tắt để mình kiểm tra ạ.",
+        "source": "planner.md#3",
+        "metadata": {
+          "chunk_id": "faq_modify_before_confirmation",
+          "score": 0.8461,
+          "version": "mvp-v1"
+        }
+      }
+    },
+    {
+      "question": "Có xe bốn chỗ không?",
+      "expected_faq_id": "faq_supported_vehicles",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": true,
+        "answer_text": "Dạ mình có thể chọn xe máy, ô tô bốn chỗ hoặc ô tô bảy chỗ ạ.",
+        "source": "architecture.md#2",
+        "metadata": {
+          "chunk_id": "faq_supported_vehicles",
+          "score": 1.0,
+          "version": "mvp-v1"
+        }
+      }
+    },
+    {
+      "question": "Có xe bảy chỗ không?",
+      "expected_faq_id": "faq_supported_vehicles",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": true,
+        "answer_text": "Dạ mình có thể chọn xe máy, ô tô bốn chỗ hoặc ô tô bảy chỗ ạ.",
+        "source": "architecture.md#2",
+        "metadata": {
+          "chunk_id": "faq_supported_vehicles",
+          "score": 1.0,
+          "version": "mvp-v1"
+        }
+      }
+    },
+    {
+      "question": "Cho mang thú cưng lên xe không?",
+      "expected": "abstain",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": false,
+        "answer_text": "Dạ hiện tại em chưa có thông tin đã xác nhận về quy định này ạ.",
+        "source": "faq_not_found",
+        "metadata": {
+          "reason": "low_confidence"
+        }
+      }
+    },
+    {
+      "question": "Có ghế trẻ em không?",
+      "expected": "abstain",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": false,
+        "answer_text": "Dạ hiện tại em chưa có thông tin đã xác nhận về quy định này ạ.",
+        "source": "faq_not_found",
+        "metadata": {
+          "reason": "low_confidence"
+        }
+      }
+    },
+    {
+      "question": "Có xe bốn chỗ chở thú cưng không?",
+      "expected": "abstain",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": false,
+        "answer_text": "Dạ hiện tại em chưa có thông tin đã xác nhận về quy định này ạ.",
+        "source": "faq_not_found",
+        "metadata": {
+          "reason": "low_confidence"
+        }
+      }
+    },
+    {
+      "question": "Xe máy có ghế trẻ em không?",
+      "expected": "abstain",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": false,
+        "answer_text": "Dạ hiện tại em chưa có thông tin đã xác nhận về quy định này ạ.",
+        "source": "faq_not_found",
+        "metadata": {
+          "reason": "low_confidence"
+        }
+      }
+    },
+    {
+      "question": "Toi muon mang cho len xe may duoc khong?",
+      "expected": "abstain",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": false,
+        "answer_text": "Dạ hiện tại em chưa có thông tin đã xác nhận về quy định này ạ.",
+        "source": "faq_not_found",
+        "metadata": {
+          "reason": "low_confidence"
+        }
+      }
+    },
+    {
+      "question": "Tôi muốn thay điểm đến để mang chó lên xe thì được không?",
+      "expected": "abstain",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": false,
+        "answer_text": "Dạ hiện tại em chưa có thông tin đã xác nhận về quy định này ạ.",
+        "source": "faq_not_found",
+        "metadata": {
+          "reason": "low_confidence"
+        }
+      }
+    },
+    {
+      "question": "Có xe bốn chỗ không và giá bao nhiêu?",
+      "expected": "abstain",
+      "passed": true,
+      "result": {
+        "category": "static_faq",
+        "success": false,
+        "answer_text": "Dạ hiện tại em chưa có thông tin đã xác nhận về quy định này ạ.",
+        "source": "faq_not_found",
+        "metadata": {
+          "reason": "low_confidence"
+        }
+      }
+    }
+  ]
+}

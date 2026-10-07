@@ -1,0 +1,32 @@
+{
+  "type": "offline_replay_of_real_vietmap_responses",
+  "source_search": "data/map_live_search_2026-10-08.json",
+  "source_place": "data/map_live_places_2026-10-08.json",
+  "query": "Vincom Mega Mall Royal City",
+  "role": "destination",
+  "city": "Hà Nội",
+  "calls": [
+    "search",
+    "place"
+  ],
+  "result": {
+    "formatted": "Vincom Mega Mall Royal City 72A Đường Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+    "coords": {
+      "lat": 21.001124,
+      "lng": 105.816667
+    },
+    "components": {
+      "detail": "72A",
+      "street": "Đường Nguyễn Trãi",
+      "ward": "Phường Thượng Đình",
+      "district": "Quận Thanh Xuân",
+      "province_city": "Thành Phố Hà Nội"
+    },
+    "location_precision": "poi",
+    "tool_status": "SUCCESS",
+    "candidates": [],
+    "place_id": "vm:POI:D74513153738FDEE",
+    "is_mega_poi": true
+  },
+  "passed": true
+}

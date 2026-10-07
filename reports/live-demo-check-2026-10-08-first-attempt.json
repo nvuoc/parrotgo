@@ -1,0 +1,629 @@
+{
+  "started_at": "2026-10-08T00:32:56.729067+07:00",
+  "llm_provider": "gemini",
+  "map_provider": "vietmap_live",
+  "checks": [
+    {
+      "name": "live_map: vincom",
+      "passed": true,
+      "tool_status": "AMBIGUOUS",
+      "formatted": null,
+      "candidates": [
+        {
+          "ref_id": "vm:POI:70158BC3CEBF98B9",
+          "name": "Vincom Nam Đàn",
+          "formatted": "Vincom Nam Đàn Thị Trấn Nam Đàn,Huyện Nam Đàn,Tỉnh Nghệ An",
+          "city": "Tỉnh Nghệ An",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Thị Trấn Nam Đàn",
+            "district": "Huyện Nam Đàn",
+            "province_city": "Tỉnh Nghệ An"
+          }
+        },
+        {
+          "ref_id": "vmg:POI:GGM1228F7S3PRSKPFLE90JEH3PG3L50P76PR",
+          "name": "Vincom Hồng Mai",
+          "formatted": "Vincom Hồng Mai Phường Quỳnh Lôi,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Quỳnh Lôi",
+            "district": "Quận Hai Bà Trưng",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vmg:POI:GGM10200GNULQ5O7NH5GHKYRXYNAI633PQIT",
+          "name": "Vincom Center Tdh",
+          "formatted": "Vincom Center Tdh Phường Mễ Trì,Quận Nam Từ Liêm,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Mễ Trì",
+            "district": "Quận Nam Từ Liêm",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vmg:POI:568d74ee-8d7d-42b7-a602-13794ccac187",
+          "name": "Milano Vincom",
+          "formatted": "Milano Vincom Phường Đông Lương,Thành Phố Đông Hà,Tỉnh Quảng Trị",
+          "city": "Tỉnh Quảng Trị",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Đông Lương",
+            "district": "Thành Phố Đông Hà",
+            "province_city": "Tỉnh Quảng Trị"
+          }
+        },
+        {
+          "ref_id": "vmg:POI:6b0139d8-e62c-4393-b076-84e5dca7779b",
+          "name": "Vuivuiland Vincom",
+          "formatted": "Vuivuiland Vincom Phường Đồng Tiến,Thành Phố Phổ Yên,Tỉnh Thái Nguyên",
+          "city": "Tỉnh Thái Nguyên",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Đồng Tiến",
+            "district": "Thành Phố Phổ Yên",
+            "province_city": "Tỉnh Thái Nguyên"
+          }
+        }
+      ],
+      "latency_seconds": 0.193
+    },
+    {
+      "name": "live_map: Vincom Mega Mall Royal City",
+      "passed": false,
+      "tool_status": "AMBIGUOUS",
+      "formatted": null,
+      "candidates": [
+        {
+          "ref_id": "vm:POI:D74513153738FDEE",
+          "name": "Vincom Mega Mall Royal City",
+          "formatted": "Vincom Mega Mall Royal City 72A Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Thượng Đình",
+            "district": "Quận Thanh Xuân",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vm:POI:0607719FE3672C09",
+          "name": "Vincom Mega Mall Royal City",
+          "formatted": "Vincom Mega Mall Royal City Khu Đô Thị Vinhomes Royal City,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Thượng Đình",
+            "district": "Quận Thanh Xuân",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vm:POI:3DM6QKTBZ6Q10T9U",
+          "name": "Adidas Vincom Mega Mall Smart City",
+          "formatted": "Adidas Vincom Mega Mall Smart City Phường Tây Mỗ,Quận Nam Từ Liêm,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Tây Mỗ",
+            "district": "Quận Nam Từ Liêm",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vm:POI:4644F9A866F555AB",
+          "name": "VinFast Royal City",
+          "formatted": "VinFast Royal City 72A Nguyễn Trãi Trung Tâm Thương Mại Vincom Mega Mall Royal City,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Thượng Đình",
+            "district": "Quận Thanh Xuân",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        },
+        {
+          "ref_id": "vm:ENTRY_POINT:A86715A699911731",
+          "name": "Cổng Vincom Mega Mall",
+          "formatted": "Cổng Vincom Mega Mall Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+          "city": "Thành Phố Hà Nội",
+          "components": {
+            "detail": null,
+            "street": null,
+            "ward": "Phường Thượng Đình",
+            "district": "Quận Thanh Xuân",
+            "province_city": "Thành Phố Hà Nội"
+          }
+        }
+      ],
+      "latency_seconds": 0.137
+    },
+    {
+      "name": "live_nlu: chào",
+      "passed": true
+    },
+    {
+      "name": "live_nlu: đi vincom",
+      "passed": true
+    },
+    {
+      "name": "generic_vincom_needs_clarification",
+      "passed": true
+    },
+    {
+      "name": "live_nlu: Hà Nội",
+      "passed": true
+    },
+    {
+      "name": "city_keeps_branch_ambiguous",
+      "passed": false
+    },
+    {
+      "name": "turn_error: Vincom Bà Triệu",
+      "passed": false,
+      "error_type": "ValueError"
+    },
+    {
+      "name": "selected_branch_matches",
+      "passed": false
+    },
+    {
+      "name": "turn_error: Đón tôi tại 12 Cầu Giấy, Hà Nội",
+      "passed": false,
+      "error_type": "ValueError"
+    },
+    {
+      "name": "pickup_is_usable",
+      "passed": false
+    },
+    {
+      "name": "turn_error: xe bảy chỗ à thôi bốn chỗ",
+      "passed": false,
+      "error_type": "ValueError"
+    },
+    {
+      "name": "vehicle_last_correction",
+      "passed": false
+    },
+    {
+      "name": "turn_error: mai 9 giờ",
+      "passed": false,
+      "error_type": "ValueError"
+    },
+    {
+      "name": "tomorrow_9am",
+      "passed": false,
+      "pickup_time": null
+    },
+    {
+      "name": "turn_error: Nãy tôi đặt đi đâu?",
+      "passed": false,
+      "error_type": "ValueError"
+    },
+    {
+      "name": "state_question_preserves_booking",
+      "passed": false
+    },
+    {
+      "name": "turn_error: Có những loại xe nào?",
+      "passed": false,
+      "error_type": "ValueError"
+    },
+    {
+      "name": "live_faq_uses_approved_source",
+      "passed": false,
+      "answer": ""
+    },
+    {
+      "name": "turn_error: Đúng rồi em",
+      "passed": false,
+      "error_type": "ValueError"
+    },
+    {
+      "name": "booking_commits_once",
+      "passed": false,
+      "booking_count": 0
+    },
+    {
+      "name": "live_nlu: Tôi muốn hủy xe",
+      "passed": true
+    },
+    {
+      "name": "live_nlu: Đúng rồi hủy xe giúp tôi",
+      "passed": true
+    },
+    {
+      "name": "cancel_confirmation_finishes",
+      "passed": true
+    },
+    {
+      "name": "unhandled_check_error",
+      "passed": false,
+      "error_type": "PermissionError"
+    }
+  ],
+  "turns": [
+    {
+      "input": "chào",
+      "reply": "Dạ em chào anh/chị. Mình muốn xe đón ở đâu ạ?",
+      "latency_seconds": 2.892,
+      "booking_status": "collecting",
+      "nlu_error": null,
+      "pickup": {
+        "raw": null,
+        "formatted": null,
+        "coords": null,
+        "components": {},
+        "note": null,
+        "place_id": null,
+        "gate_id": null,
+        "location_precision": "unknown",
+        "is_mega_poi": false,
+        "default_point_used": false,
+        "gate_resolved": false,
+        "requires_confirmation": false,
+        "clarification_kind": null,
+        "candidates": [],
+        "status": "empty"
+      },
+      "destination": {
+        "raw": null,
+        "formatted": null,
+        "coords": null,
+        "components": {},
+        "note": null,
+        "place_id": null,
+        "gate_id": null,
+        "location_precision": "unknown",
+        "is_mega_poi": false,
+        "default_point_used": false,
+        "gate_resolved": false,
+        "requires_confirmation": false,
+        "clarification_kind": null,
+        "candidates": [],
+        "status": "empty"
+      },
+      "vehicle": {
+        "value": null,
+        "status": "empty"
+      },
+      "pickup_time": {
+        "value": null,
+        "raw": null,
+        "anchored_at": null,
+        "status": "empty"
+      },
+      "qa_source": null
+    },
+    {
+      "input": "đi vincom",
+      "reply": "Dạ địa điểm này thuộc tỉnh hoặc thành phố nào ạ?",
+      "latency_seconds": 2.831,
+      "booking_status": "collecting",
+      "nlu_error": null,
+      "pickup": {
+        "raw": null,
+        "formatted": null,
+        "coords": null,
+        "components": {},
+        "note": null,
+        "place_id": null,
+        "gate_id": null,
+        "location_precision": "unknown",
+        "is_mega_poi": false,
+        "default_point_used": false,
+        "gate_resolved": false,
+        "requires_confirmation": false,
+        "clarification_kind": null,
+        "candidates": [],
+        "status": "empty"
+      },
+      "destination": {
+        "raw": "vincom",
+        "formatted": null,
+        "coords": null,
+        "components": {},
+        "note": null,
+        "place_id": null,
+        "gate_id": null,
+        "location_precision": "unknown",
+        "is_mega_poi": false,
+        "default_point_used": false,
+        "gate_resolved": false,
+        "requires_confirmation": false,
+        "clarification_kind": "city",
+        "candidates": [
+          {
+            "place_id": "vincom_ba_trieu_hn",
+            "name": "Vincom Center Bà Triệu",
+            "formatted": "Vincom Center Bà Triệu 191 Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+            "city": "Thành Phố Hà Nội",
+            "coords": {
+              "lat": 21.010879,
+              "lng": 105.849579
+            },
+            "components": {
+              "detail": "191",
+              "street": "Phố Bà Triệu",
+              "ward": "Phường Lê Đại Hành",
+              "district": "Quận Hai Bà Trưng",
+              "province_city": "Thành Phố Hà Nội"
+            },
+            "is_mega_poi": true,
+            "location_precision": "poi",
+            "source": "vietmap_place_v3_2026-10-08",
+            "verified": true
+          },
+          {
+            "place_id": "vincom_royal_city_hn",
+            "name": "Vincom Mega Mall Royal City",
+            "formatted": "Vincom Mega Mall Royal City 72A Đường Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+            "city": "Thành Phố Hà Nội",
+            "coords": {
+              "lat": 21.001124,
+              "lng": 105.816667
+            },
+            "components": {
+              "detail": "72A",
+              "street": "Đường Nguyễn Trãi",
+              "ward": "Phường Thượng Đình",
+              "district": "Quận Thanh Xuân",
+              "province_city": "Thành Phố Hà Nội"
+            },
+            "is_mega_poi": true,
+            "location_precision": "poi",
+            "source": "vietmap_place_v3_2026-10-08",
+            "verified": true
+          },
+          {
+            "place_id": "vincom_thu_duc_hcm",
+            "name": "Vincom Plaza Thủ Đức",
+            "formatted": "Vincom Plaza Thủ Đức 216 Đường Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+            "city": "Thành Phố Hồ Chí Minh",
+            "coords": {
+              "lat": 10.850559,
+              "lng": 106.765306
+            },
+            "components": {
+              "detail": "216",
+              "street": "Đường Võ Văn Ngân",
+              "ward": "Phường Bình Thọ",
+              "district": "Thành Phố Thủ Đức",
+              "province_city": "Thành Phố Hồ Chí Minh"
+            },
+            "is_mega_poi": true,
+            "location_precision": "poi",
+            "source": "vietmap_place_v3_2026-10-08",
+            "verified": true
+          }
+        ],
+        "status": "needs_clarification"
+      },
+      "vehicle": {
+        "value": null,
+        "status": "empty"
+      },
+      "pickup_time": {
+        "value": "now",
+        "raw": null,
+        "anchored_at": null,
+        "status": "extracted"
+      },
+      "qa_source": null
+    },
+    {
+      "input": "Hà Nội",
+      "reply": "Dạ trường hợp này cần nhân viên hỗ trợ để xử lý chính xác ạ.",
+      "latency_seconds": 2.466,
+      "booking_status": "operator_required",
+      "nlu_error": null,
+      "pickup": {
+        "raw": null,
+        "formatted": null,
+        "coords": null,
+        "components": {},
+        "note": null,
+        "place_id": null,
+        "gate_id": null,
+        "location_precision": "unknown",
+        "is_mega_poi": false,
+        "default_point_used": false,
+        "gate_resolved": false,
+        "requires_confirmation": false,
+        "clarification_kind": null,
+        "candidates": [],
+        "status": "empty"
+      },
+      "destination": {
+        "raw": "vincom, vincom",
+        "formatted": null,
+        "coords": null,
+        "components": {},
+        "note": null,
+        "place_id": null,
+        "gate_id": null,
+        "location_precision": "unknown",
+        "is_mega_poi": false,
+        "default_point_used": false,
+        "gate_resolved": false,
+        "requires_confirmation": false,
+        "clarification_kind": "ab",
+        "candidates": [
+          {
+            "place_id": "vincom_ba_trieu_hn",
+            "name": "Vincom Center Bà Triệu",
+            "formatted": "Vincom Center Bà Triệu 191 Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+            "city": "Thành Phố Hà Nội",
+            "coords": {
+              "lat": 21.010879,
+              "lng": 105.849579
+            },
+            "components": {
+              "detail": "191",
+              "street": "Phố Bà Triệu",
+              "ward": "Phường Lê Đại Hành",
+              "district": "Quận Hai Bà Trưng",
+              "province_city": "Thành Phố Hà Nội"
+            },
+            "is_mega_poi": true,
+            "location_precision": "poi",
+            "source": "vietmap_place_v3_2026-10-08",
+            "verified": true
+          },
+          {
+            "place_id": "vincom_royal_city_hn",
+            "name": "Vincom Mega Mall Royal City",
+            "formatted": "Vincom Mega Mall Royal City 72A Đường Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+            "city": "Thành Phố Hà Nội",
+            "coords": {
+              "lat": 21.001124,
+              "lng": 105.816667
+            },
+            "components": {
+              "detail": "72A",
+              "street": "Đường Nguyễn Trãi",
+              "ward": "Phường Thượng Đình",
+              "district": "Quận Thanh Xuân",
+              "province_city": "Thành Phố Hà Nội"
+            },
+            "is_mega_poi": true,
+            "location_precision": "poi",
+            "source": "vietmap_place_v3_2026-10-08",
+            "verified": true
+          }
+        ],
+        "status": "needs_clarification"
+      },
+      "vehicle": {
+        "value": null,
+        "status": "empty"
+      },
+      "pickup_time": {
+        "value": "now",
+        "raw": null,
+        "anchored_at": null,
+        "status": "extracted"
+      },
+      "qa_source": null
+    },
+    {
+      "input": "Tôi muốn hủy xe",
+      "reply": "Dạ mình có chắc muốn hủy yêu cầu đặt xe này không ạ?",
+      "latency_seconds": 1.452,
+      "booking_status": "cancel_pending",
+      "nlu_error": null,
+      "pickup": {
+        "raw": null,
+        "formatted": null,
+        "coords": null,
+        "components": {},
+        "note": null,
+        "place_id": null,
+        "gate_id": null,
+        "location_precision": "unknown",
+        "is_mega_poi": false,
+        "default_point_used": false,
+        "gate_resolved": false,
+        "requires_confirmation": false,
+        "clarification_kind": null,
+        "candidates": [],
+        "status": "empty"
+      },
+      "destination": {
+        "raw": null,
+        "formatted": null,
+        "coords": null,
+        "components": {},
+        "note": null,
+        "place_id": null,
+        "gate_id": null,
+        "location_precision": "unknown",
+        "is_mega_poi": false,
+        "default_point_used": false,
+        "gate_resolved": false,
+        "requires_confirmation": false,
+        "clarification_kind": null,
+        "candidates": [],
+        "status": "empty"
+      },
+      "vehicle": {
+        "value": null,
+        "status": "empty"
+      },
+      "pickup_time": {
+        "value": null,
+        "raw": null,
+        "anchored_at": null,
+        "status": "empty"
+      },
+      "qa_source": null
+    },
+    {
+      "input": "Đúng rồi hủy xe giúp tôi",
+      "reply": "Dạ em đã hủy yêu cầu đặt xe trong phiên này ạ.",
+      "latency_seconds": 1.318,
+      "booking_status": "canceled",
+      "nlu_error": null,
+      "pickup": {
+        "raw": null,
+        "formatted": null,
+        "coords": null,
+        "components": {},
+        "note": null,
+        "place_id": null,
+        "gate_id": null,
+        "location_precision": "unknown",
+        "is_mega_poi": false,
+        "default_point_used": false,
+        "gate_resolved": false,
+        "requires_confirmation": false,
+        "clarification_kind": null,
+        "candidates": [],
+        "status": "empty"
+      },
+      "destination": {
+        "raw": null,
+        "formatted": null,
+        "coords": null,
+        "components": {},
+        "note": null,
+        "place_id": null,
+        "gate_id": null,
+        "location_precision": "unknown",
+        "is_mega_poi": false,
+        "default_point_used": false,
+        "gate_resolved": false,
+        "requires_confirmation": false,
+        "clarification_kind": null,
+        "candidates": [],
+        "status": "empty"
+      },
+      "vehicle": {
+        "value": null,
+        "status": "empty"
+      },
+      "pickup_time": {
+        "value": null,
+        "raw": null,
+        "anchored_at": null,
+        "status": "empty"
+      },
+      "qa_source": null
+    }
+  ],
+  "elapsed_seconds": 11.512,
+  "passed": false
+}

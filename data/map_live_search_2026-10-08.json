@@ -1,0 +1,1740 @@
+[
+  {
+    "query": "vincom",
+    "status": 200,
+    "seconds": 0.12,
+    "results": [
+      {
+        "ref_id": "vmg:POI:568d74ee-8d7d-42b7-a602-13794ccac187",
+        "distance": 0,
+        "address": "Phường Đông Lương,Thành Phố Đông Hà,Tỉnh Quảng Trị",
+        "name": "Milano Vincom",
+        "display": "Milano Vincom Phường Đông Lương,Thành Phố Đông Hà,Tỉnh Quảng Trị",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 131388,
+            "name": "Đông Lương",
+            "prefix": "Phường",
+            "full_name": "Phường Đông Lương"
+          },
+          {
+            "type": 1,
+            "id": 316,
+            "name": "Đông Hà",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Đông Hà"
+          },
+          {
+            "type": 0,
+            "id": 60,
+            "name": "Quảng Trị",
+            "prefix": "Tỉnh",
+            "full_name": "Tỉnh Quảng Trị"
+          }
+        ],
+        "categories": [
+          "1000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vmg:POI:6b0139d8-e62c-4393-b076-84e5dca7779b",
+        "distance": 0,
+        "address": "Phường Đồng Tiến,Thành Phố Phổ Yên,Tỉnh Thái Nguyên",
+        "name": "Vuivuiland Vincom",
+        "display": "Vuivuiland Vincom Phường Đồng Tiến,Thành Phố Phổ Yên,Tỉnh Thái Nguyên",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 525121,
+            "name": "Đồng Tiến",
+            "prefix": "Phường",
+            "full_name": "Phường Đồng Tiến"
+          },
+          {
+            "type": 1,
+            "id": 833,
+            "name": "Phổ Yên",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Phổ Yên"
+          },
+          {
+            "type": 0,
+            "id": 65,
+            "name": "Thái Nguyên",
+            "prefix": "Tỉnh",
+            "full_name": "Tỉnh Thái Nguyên"
+          }
+        ],
+        "categories": [
+          "1000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:70158BC3CEBF98B9",
+        "distance": 0,
+        "address": "Thị Trấn Nam Đàn,Huyện Nam Đàn,Tỉnh Nghệ An",
+        "name": "Vincom Nam Đàn",
+        "display": "Vincom Nam Đàn Thị Trấn Nam Đàn,Huyện Nam Đàn,Tỉnh Nghệ An",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 395827,
+            "name": "Nam Đàn",
+            "prefix": "Thị Trấn",
+            "full_name": "Thị Trấn Nam Đàn"
+          },
+          {
+            "type": 1,
+            "id": 2611,
+            "name": "Nam Đàn",
+            "prefix": "Huyện",
+            "full_name": "Huyện Nam Đàn"
+          },
+          {
+            "type": 0,
+            "id": 51,
+            "name": "Nghệ An",
+            "prefix": "Tỉnh",
+            "full_name": "Tỉnh Nghệ An"
+          }
+        ],
+        "categories": [
+          "3001"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vmg:POI:GGM1228F7S3PRSKPFLE90JEH3PG3L50P76PR",
+        "distance": 0,
+        "address": "Phường Quỳnh Lôi,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "name": "Vincom Hồng Mai",
+        "display": "Vincom Hồng Mai Phường Quỳnh Lôi,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 983819,
+            "name": "Quỳnh Lôi",
+            "prefix": "Phường",
+            "full_name": "Phường Quỳnh Lôi"
+          },
+          {
+            "type": 1,
+            "id": 779,
+            "name": "Hai Bà Trưng",
+            "prefix": "Quận",
+            "full_name": "Quận Hai Bà Trưng"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vmg:POI:GGM1214RZY166RRKJ0CO1UQU6JZ8UI6Y8Z71",
+        "distance": 0,
+        "address": "Phường Ngọc Khánh,Quận Ba Đình,Thành Phố Hà Nội",
+        "name": "Starbucks Vincom Metropolis",
+        "display": "Starbucks Vincom Metropolis Phường Ngọc Khánh,Quận Ba Đình,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 524555,
+            "name": "Ngọc Khánh",
+            "prefix": "Phường",
+            "full_name": "Phường Ngọc Khánh"
+          },
+          {
+            "type": 1,
+            "id": 267,
+            "name": "Ba Đình",
+            "prefix": "Quận",
+            "full_name": "Quận Ba Đình"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vmg:POI:GGM0907N093ZNF2UD6YLFROFB5DE5AOCAPQM",
+        "distance": 0,
+        "address": "Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "name": "Cổng Sau Vincom",
+        "display": "Cổng Sau Vincom Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 398092,
+            "name": "Bình Thọ",
+            "prefix": "Phường",
+            "full_name": "Phường Bình Thọ"
+          },
+          {
+            "type": 1,
+            "id": 4876,
+            "name": "Thủ Đức",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Thủ Đức"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vmg:POI:GGM10200GNULQ5O7NH5GHKYRXYNAI633PQIT",
+        "distance": 0,
+        "address": "Phường Mễ Trì,Quận Nam Từ Liêm,Thành Phố Hà Nội",
+        "name": "Vincom Center Tdh",
+        "display": "Vincom Center Tdh Phường Mễ Trì,Quận Nam Từ Liêm,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 265227,
+            "name": "Mễ Trì",
+            "prefix": "Phường",
+            "full_name": "Phường Mễ Trì"
+          },
+          {
+            "type": 1,
+            "id": 3083,
+            "name": "Nam Từ Liêm",
+            "prefix": "Quận",
+            "full_name": "Quận Nam Từ Liêm"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vmg:POI:ea011009-c4cb-4919-8cc6-c5288076606e",
+        "distance": 0,
+        "address": "Phường Thượng Lý,Quận Hồng Bàng,Thành Phố Hải Phòng",
+        "name": "Uniqlo Vincom Imperia",
+        "display": "Uniqlo Vincom Imperia Phường Thượng Lý,Quận Hồng Bàng,Thành Phố Hải Phòng",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 525069,
+            "name": "Thượng Lý",
+            "prefix": "Phường",
+            "full_name": "Phường Thượng Lý"
+          },
+          {
+            "type": 1,
+            "id": 781,
+            "name": "Hồng Bàng",
+            "prefix": "Quận",
+            "full_name": "Quận Hồng Bàng"
+          },
+          {
+            "type": 0,
+            "id": 13,
+            "name": "Hải Phòng",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hải Phòng"
+          }
+        ],
+        "categories": [
+          "3004",
+          "3004-4"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:XK4ZF0XKLHN7IPRQ",
+        "distance": 0,
+        "address": "Khu Shophouse Vincom,Phường 1,Thành Phố Cao Lãnh,Tỉnh Đồng Tháp",
+        "name": "Haus Coffee-Vincom Cao Lãnh",
+        "display": "Haus Coffee-Vincom Cao Lãnh Khu Shophouse Vincom,Phường 1,Thành Phố Cao Lãnh,Tỉnh Đồng Tháp",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 327969,
+            "name": "1",
+            "prefix": "Phường",
+            "full_name": "Phường 1"
+          },
+          {
+            "type": 1,
+            "id": 289,
+            "name": "Cao Lãnh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Cao Lãnh"
+          },
+          {
+            "type": 0,
+            "id": 33,
+            "name": "Đồng Tháp",
+            "prefix": "Tỉnh",
+            "full_name": "Tỉnh Đồng Tháp"
+          }
+        ],
+        "categories": [
+          "1000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:PRZJ1DHTMAI4E7RT",
+        "distance": 0,
+        "address": "Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "name": "Mlb Vincom Đồng Khởi",
+        "display": "Mlb Vincom Đồng Khởi Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 327948,
+            "name": "Bến Nghé",
+            "prefix": "Phường",
+            "full_name": "Phường Bến Nghé"
+          },
+          {
+            "type": 1,
+            "id": 268,
+            "name": "1",
+            "prefix": "Quận",
+            "full_name": "Quận 1"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "3000"
+        ],
+        "entry_points": []
+      }
+    ]
+  },
+  {
+    "query": "Vincom Center Bà Triệu Hà Nội",
+    "status": 200,
+    "seconds": 0.06,
+    "results": [
+      {
+        "ref_id": "vmg:POI:GGM1228JMK7EGZYGMHU965HYO8NNQLM28ELD",
+        "distance": 0,
+        "address": "Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "name": "Mango Vincom Center Bà Triệu",
+        "display": "Mango Vincom Center Bà Triệu Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 721675,
+            "name": "Lê Đại Hành",
+            "prefix": "Phường",
+            "full_name": "Phường Lê Đại Hành"
+          },
+          {
+            "type": 1,
+            "id": 779,
+            "name": "Hai Bà Trưng",
+            "prefix": "Quận",
+            "full_name": "Quận Hai Bà Trưng"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vmg:POI:GGM1228YJOO692DHY2YYIB80R5YMP4NAGQNM",
+        "distance": 0,
+        "address": "191 Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "name": "Vincom Center Bà Triệu",
+        "display": "Vincom Center Bà Triệu 191 Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 721675,
+            "name": "Lê Đại Hành",
+            "prefix": "Phường",
+            "full_name": "Phường Lê Đại Hành"
+          },
+          {
+            "type": 1,
+            "id": 779,
+            "name": "Hai Bà Trưng",
+            "prefix": "Quận",
+            "full_name": "Quận Hai Bà Trưng"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:389RU0JIQCBCRS3L",
+        "distance": 0,
+        "address": "Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "name": "Mango Vincom Center Bà Triệu",
+        "display": "Mango Vincom Center Bà Triệu Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 721675,
+            "name": "Lê Đại Hành",
+            "prefix": "Phường",
+            "full_name": "Phường Lê Đại Hành"
+          },
+          {
+            "type": 1,
+            "id": 779,
+            "name": "Hai Bà Trưng",
+            "prefix": "Quận",
+            "full_name": "Quận Hai Bà Trưng"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "3000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:6LKJ3MNHIBTODDT4",
+        "distance": 0,
+        "address": "Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "name": "Shiseido Vincom Center Bà Triệu",
+        "display": "Shiseido Vincom Center Bà Triệu Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 721675,
+            "name": "Lê Đại Hành",
+            "prefix": "Phường",
+            "full_name": "Phường Lê Đại Hành"
+          },
+          {
+            "type": 1,
+            "id": 779,
+            "name": "Hai Bà Trưng",
+            "prefix": "Quận",
+            "full_name": "Quận Hai Bà Trưng"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "3004",
+          "3004-36"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:6V4KIL54UBEP63VA",
+        "distance": 0,
+        "address": "Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "name": "Pedro Vincom Center Bà Triệu",
+        "display": "Pedro Vincom Center Bà Triệu Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 721675,
+            "name": "Lê Đại Hành",
+            "prefix": "Phường",
+            "full_name": "Phường Lê Đại Hành"
+          },
+          {
+            "type": 1,
+            "id": 779,
+            "name": "Hai Bà Trưng",
+            "prefix": "Quận",
+            "full_name": "Quận Hai Bà Trưng"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "3000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:3HB84MP3844RUP19",
+        "distance": 0,
+        "address": "Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "name": "Gucci Beauty Vincom Center Bà Triệu",
+        "display": "Gucci Beauty Vincom Center Bà Triệu Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 721675,
+            "name": "Lê Đại Hành",
+            "prefix": "Phường",
+            "full_name": "Phường Lê Đại Hành"
+          },
+          {
+            "type": 1,
+            "id": 779,
+            "name": "Hai Bà Trưng",
+            "prefix": "Quận",
+            "full_name": "Quận Hai Bà Trưng"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "3004",
+          "3004-5"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:4UOOLZGLRU1H0GWI",
+        "distance": 0,
+        "address": "Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "name": "Max Và Co. Hanoi Vincom Center Ba Trieu",
+        "display": "Max Và Co. Hanoi Vincom Center Ba Trieu Phố Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 721675,
+            "name": "Lê Đại Hành",
+            "prefix": "Phường",
+            "full_name": "Phường Lê Đại Hành"
+          },
+          {
+            "type": 1,
+            "id": 779,
+            "name": "Hai Bà Trưng",
+            "prefix": "Quận",
+            "full_name": "Quận Hai Bà Trưng"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "3000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:6NBDZT3ZSUGCHEKW",
+        "distance": 0,
+        "address": "Phố Bà Triệu/191 Phố Lê Đại Hành,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "name": "Levi's Vincom Center Ba Trieu",
+        "display": "Levi's Vincom Center Ba Trieu Phố Bà Triệu/191 Phố Lê Đại Hành,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 721675,
+            "name": "Lê Đại Hành",
+            "prefix": "Phường",
+            "full_name": "Phường Lê Đại Hành"
+          },
+          {
+            "type": 1,
+            "id": 779,
+            "name": "Hai Bà Trưng",
+            "prefix": "Quận",
+            "full_name": "Quận Hai Bà Trưng"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "3000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:2D831FA43FF7621C",
+        "distance": 0,
+        "address": "191 Bà Triệu  Trung Tâm Thương Mại Vincom Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "name": "CGV Vincom Center Bà Triệu",
+        "display": "CGV Vincom Center Bà Triệu 191 Bà Triệu  Trung Tâm Thương Mại Vincom Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 721675,
+            "name": "Lê Đại Hành",
+            "prefix": "Phường",
+            "full_name": "Phường Lê Đại Hành"
+          },
+          {
+            "type": 1,
+            "id": 779,
+            "name": "Hai Bà Trưng",
+            "prefix": "Quận",
+            "full_name": "Quận Hai Bà Trưng"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "4002",
+          "4002-5"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:3FEC4EBE04BAEC98",
+        "distance": 0,
+        "address": "191 Bà Triệu  Trung Tâm Thương Mại Vincom Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "name": "Sumo Yakiniku Vincom Center Bà Triệu",
+        "display": "Sumo Yakiniku Vincom Center Bà Triệu 191 Bà Triệu  Trung Tâm Thương Mại Vincom Bà Triệu,Phường Lê Đại Hành,Quận Hai Bà Trưng,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 721675,
+            "name": "Lê Đại Hành",
+            "prefix": "Phường",
+            "full_name": "Phường Lê Đại Hành"
+          },
+          {
+            "type": 1,
+            "id": 779,
+            "name": "Hai Bà Trưng",
+            "prefix": "Quận",
+            "full_name": "Quận Hai Bà Trưng"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "1002",
+          "1002-3"
+        ],
+        "entry_points": []
+      }
+    ]
+  },
+  {
+    "query": "Vincom Center Đồng Khởi Hồ Chí Minh",
+    "status": 200,
+    "seconds": 0.11,
+    "results": [
+      {
+        "ref_id": "vm:POI:3ZEVZIGPBL0ORFJE",
+        "distance": 0,
+        "address": "Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "name": "Dickies Vincom Center Đồng Khởi",
+        "display": "Dickies Vincom Center Đồng Khởi Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 327948,
+            "name": "Bến Nghé",
+            "prefix": "Phường",
+            "full_name": "Phường Bến Nghé"
+          },
+          {
+            "type": 1,
+            "id": 268,
+            "name": "1",
+            "prefix": "Quận",
+            "full_name": "Quận 1"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "3000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:24MBPL8S9NO73P1Z",
+        "distance": 0,
+        "address": "Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "name": "Havaianas Vincom Center Đồng Khởi",
+        "display": "Havaianas Vincom Center Đồng Khởi Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 327948,
+            "name": "Bến Nghé",
+            "prefix": "Phường",
+            "full_name": "Phường Bến Nghé"
+          },
+          {
+            "type": 1,
+            "id": 268,
+            "name": "1",
+            "prefix": "Quận",
+            "full_name": "Quận 1"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "3000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:MDQ3L3M140MILAK6",
+        "distance": 0,
+        "address": "Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "name": "Le Silla Vincom Center Đồng Khởi",
+        "display": "Le Silla Vincom Center Đồng Khởi Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 327948,
+            "name": "Bến Nghé",
+            "prefix": "Phường",
+            "full_name": "Phường Bến Nghé"
+          },
+          {
+            "type": 1,
+            "id": 268,
+            "name": "1",
+            "prefix": "Quận",
+            "full_name": "Quận 1"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "3000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:6TR0HA1LYEFPW0JS",
+        "distance": 0,
+        "address": "Đường Đồng Khởi,Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "name": "Pedro Vincom Center Đồng Khởi",
+        "display": "Pedro Vincom Center Đồng Khởi Đường Đồng Khởi,Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 327948,
+            "name": "Bến Nghé",
+            "prefix": "Phường",
+            "full_name": "Phường Bến Nghé"
+          },
+          {
+            "type": 1,
+            "id": 268,
+            "name": "1",
+            "prefix": "Quận",
+            "full_name": "Quận 1"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "3000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:1ZCSGALRJ0GWO5FA",
+        "distance": 0,
+        "address": "Đường Lý Tự Trọng,Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "name": "Skechers Vincom Center Đồng Khởi",
+        "display": "Skechers Vincom Center Đồng Khởi Đường Lý Tự Trọng,Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 327948,
+            "name": "Bến Nghé",
+            "prefix": "Phường",
+            "full_name": "Phường Bến Nghé"
+          },
+          {
+            "type": 1,
+            "id": 268,
+            "name": "1",
+            "prefix": "Quận",
+            "full_name": "Quận 1"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "3000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:27C0HBICOXLF3ZSH",
+        "distance": 0,
+        "address": "Đường Lê Thánh Tôn,Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "name": "Gigi Vincom Center Đồng Khởi",
+        "display": "Gigi Vincom Center Đồng Khởi Đường Lê Thánh Tôn,Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 327948,
+            "name": "Bến Nghé",
+            "prefix": "Phường",
+            "full_name": "Phường Bến Nghé"
+          },
+          {
+            "type": 1,
+            "id": 268,
+            "name": "1",
+            "prefix": "Quận",
+            "full_name": "Quận 1"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "3000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:6IALDKB8SXAJZYMW",
+        "distance": 0,
+        "address": "Đường Lê Thánh Tôn,Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "name": "Cgv Vincom Center Đồng Khởi",
+        "display": "Cgv Vincom Center Đồng Khởi Đường Lê Thánh Tôn,Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 327948,
+            "name": "Bến Nghé",
+            "prefix": "Phường",
+            "full_name": "Phường Bến Nghé"
+          },
+          {
+            "type": 1,
+            "id": 268,
+            "name": "1",
+            "prefix": "Quận",
+            "full_name": "Quận 1"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "4000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:6GENL8QOWW2NXN4E",
+        "distance": 0,
+        "address": "Đường Lê Thánh Tôn,Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "name": "Laneige Vincom Center Đồng Khởi",
+        "display": "Laneige Vincom Center Đồng Khởi Đường Lê Thánh Tôn,Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 327948,
+            "name": "Bến Nghé",
+            "prefix": "Phường",
+            "full_name": "Phường Bến Nghé"
+          },
+          {
+            "type": 1,
+            "id": 268,
+            "name": "1",
+            "prefix": "Quận",
+            "full_name": "Quận 1"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "3004",
+          "3004-36"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:3YX1IHVLNG0VNGQC",
+        "distance": 0,
+        "address": "Đường Lê Thánh Tôn,Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "name": "Breadtalk Vincom Center Đồng Khởi",
+        "display": "Breadtalk Vincom Center Đồng Khởi Đường Lê Thánh Tôn,Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 327948,
+            "name": "Bến Nghé",
+            "prefix": "Phường",
+            "full_name": "Phường Bến Nghé"
+          },
+          {
+            "type": 1,
+            "id": 268,
+            "name": "1",
+            "prefix": "Quận",
+            "full_name": "Quận 1"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "3000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:5JLAL75CWC23JOS2",
+        "distance": 0,
+        "address": "Đường Lê Thánh Tôn,Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "name": "Mujosh Vincom Center Đồng Khởi",
+        "display": "Mujosh Vincom Center Đồng Khởi Đường Lê Thánh Tôn,Phường Bến Nghé,Quận 1,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 327948,
+            "name": "Bến Nghé",
+            "prefix": "Phường",
+            "full_name": "Phường Bến Nghé"
+          },
+          {
+            "type": 1,
+            "id": 268,
+            "name": "1",
+            "prefix": "Quận",
+            "full_name": "Quận 1"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "3000"
+        ],
+        "entry_points": []
+      }
+    ]
+  },
+  {
+    "query": "Vincom Mega Mall Royal City Hà Nội",
+    "status": 200,
+    "seconds": 0.07,
+    "results": [
+      {
+        "ref_id": "vm:POI:D74513153738FDEE",
+        "distance": 0,
+        "address": "72A Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "name": "Vincom Mega Mall Royal City",
+        "display": "Vincom Mega Mall Royal City 72A Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 330251,
+            "name": "Thượng Đình",
+            "prefix": "Phường",
+            "full_name": "Phường Thượng Đình"
+          },
+          {
+            "type": 1,
+            "id": 2571,
+            "name": "Thanh Xuân",
+            "prefix": "Quận",
+            "full_name": "Quận Thanh Xuân"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "3001"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:34F47BE4E996377E",
+        "distance": 0,
+        "address": "72A Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "name": "Vinpearlland Bowling Vincom Mega Mall Royal City",
+        "display": "Vinpearlland Bowling Vincom Mega Mall Royal City 72A Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 330251,
+            "name": "Thượng Đình",
+            "prefix": "Phường",
+            "full_name": "Phường Thượng Đình"
+          },
+          {
+            "type": 1,
+            "id": 2571,
+            "name": "Thanh Xuân",
+            "prefix": "Quận",
+            "full_name": "Quận Thanh Xuân"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "4002",
+          "4002-12"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:F1197FFAF3050F17",
+        "distance": 0,
+        "address": "72A Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "name": "Vinpearlland Games Vincom Mega Mall Royal City",
+        "display": "Vinpearlland Games Vincom Mega Mall Royal City 72A Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 330251,
+            "name": "Thượng Đình",
+            "prefix": "Phường",
+            "full_name": "Phường Thượng Đình"
+          },
+          {
+            "type": 1,
+            "id": 2571,
+            "name": "Thanh Xuân",
+            "prefix": "Quận",
+            "full_name": "Quận Thanh Xuân"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "4002",
+          "4002-1"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:0607719FE3672C09",
+        "distance": 0,
+        "address": "Khu Đô Thị Vinhomes Royal City,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "name": "Vincom Mega Mall Royal City",
+        "display": "Vincom Mega Mall Royal City Khu Đô Thị Vinhomes Royal City,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 330251,
+            "name": "Thượng Đình",
+            "prefix": "Phường",
+            "full_name": "Phường Thượng Đình"
+          },
+          {
+            "type": 1,
+            "id": 2571,
+            "name": "Thanh Xuân",
+            "prefix": "Quận",
+            "full_name": "Quận Thanh Xuân"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "3001"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:1FBD7AB631E15227",
+        "distance": 0,
+        "address": "72A Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "name": "Vinpearlland Water Park Vincom Mega Mall Royal City",
+        "display": "Vinpearlland Water Park Vincom Mega Mall Royal City 72A Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 330251,
+            "name": "Thượng Đình",
+            "prefix": "Phường",
+            "full_name": "Phường Thượng Đình"
+          },
+          {
+            "type": 1,
+            "id": 2571,
+            "name": "Thanh Xuân",
+            "prefix": "Quận",
+            "full_name": "Quận Thanh Xuân"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "4002",
+          "4002-1"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:BF9CDFD70AC6BAF2",
+        "distance": 0,
+        "address": "72A Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "name": "Vinpearlland Ice Rink Vincom Mega Mall Royal City",
+        "display": "Vinpearlland Ice Rink Vincom Mega Mall Royal City 72A Nguyễn Trãi,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 330251,
+            "name": "Thượng Đình",
+            "prefix": "Phường",
+            "full_name": "Phường Thượng Đình"
+          },
+          {
+            "type": 1,
+            "id": 2571,
+            "name": "Thanh Xuân",
+            "prefix": "Quận",
+            "full_name": "Quận Thanh Xuân"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "4002",
+          "4002-1"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:34CD6554079EA80A",
+        "distance": 0,
+        "address": "72A Nguyễn Trãi  Vincom Mega Mall Royal City,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "name": "ATM BIDV",
+        "display": "ATM BIDV 72A Nguyễn Trãi  Vincom Mega Mall Royal City,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 330251,
+            "name": "Thượng Đình",
+            "prefix": "Phường",
+            "full_name": "Phường Thượng Đình"
+          },
+          {
+            "type": 1,
+            "id": 2571,
+            "name": "Thanh Xuân",
+            "prefix": "Quận",
+            "full_name": "Quận Thanh Xuân"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "6008",
+          "6008-2"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:4644F9A866F555AB",
+        "distance": 0,
+        "address": "72A Nguyễn Trãi Trung Tâm Thương Mại Vincom Mega Mall Royal City,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "name": "VinFast Royal City",
+        "display": "VinFast Royal City 72A Nguyễn Trãi Trung Tâm Thương Mại Vincom Mega Mall Royal City,Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 330251,
+            "name": "Thượng Đình",
+            "prefix": "Phường",
+            "full_name": "Phường Thượng Đình"
+          },
+          {
+            "type": 1,
+            "id": 2571,
+            "name": "Thanh Xuân",
+            "prefix": "Quận",
+            "full_name": "Quận Thanh Xuân"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "10001"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:3DM6QKTBZ6Q10T9U",
+        "distance": 0,
+        "address": "Phường Tây Mỗ,Quận Nam Từ Liêm,Thành Phố Hà Nội",
+        "name": "Adidas Vincom Mega Mall Smart City",
+        "display": "Adidas Vincom Mega Mall Smart City Phường Tây Mỗ,Quận Nam Từ Liêm,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 68619,
+            "name": "Tây Mỗ",
+            "prefix": "Phường",
+            "full_name": "Phường Tây Mỗ"
+          },
+          {
+            "type": 1,
+            "id": 3083,
+            "name": "Nam Từ Liêm",
+            "prefix": "Quận",
+            "full_name": "Quận Nam Từ Liêm"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [
+          "3004",
+          "3004-3"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:ENTRY_POINT:A86715A699911731",
+        "distance": 0,
+        "address": "Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "name": "Cổng Vincom Mega Mall",
+        "display": "Cổng Vincom Mega Mall Phường Thượng Đình,Quận Thanh Xuân,Thành Phố Hà Nội",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 330251,
+            "name": "Thượng Đình",
+            "prefix": "Phường",
+            "full_name": "Phường Thượng Đình"
+          },
+          {
+            "type": 1,
+            "id": 2571,
+            "name": "Thanh Xuân",
+            "prefix": "Quận",
+            "full_name": "Quận Thanh Xuân"
+          },
+          {
+            "type": 0,
+            "id": 11,
+            "name": "Hà Nội",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hà Nội"
+          }
+        ],
+        "categories": [],
+        "entry_points": []
+      }
+    ]
+  },
+  {
+    "query": "Vincom Plaza Thủ Đức 216 Võ Văn Ngân",
+    "status": 200,
+    "results": [
+      {
+        "ref_id": "vm:POI:EA1E5CDC789399E2",
+        "distance": 0,
+        "address": "216 Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "name": "Vincom Plaza Thủ Đức",
+        "display": "Vincom Plaza Thủ Đức 216 Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 398092,
+            "name": "Bình Thọ",
+            "prefix": "Phường",
+            "full_name": "Phường Bình Thọ"
+          },
+          {
+            "type": 1,
+            "id": 4876,
+            "name": "Thủ Đức",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Thủ Đức"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "3001"
+        ],
+        "entry_points": [
+          {
+            "ref_id": "vm:ENTRY_POINT:1EC2FA9D7C950941",
+            "name": "Cổng Chính-Võ Văn Ngân"
+          },
+          {
+            "ref_id": "vm:ENTRY_POINT:761C7DDE548C05FA",
+            "name": "Cổng Sau-Đường Số 5"
+          }
+        ]
+      },
+      {
+        "ref_id": "vm:POI:CA132E933DE6E147",
+        "distance": 0,
+        "address": "216 Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "name": "Trạm Sạc Điện VinFast Trung Tâm Thương Mại Vincom Plaza Thủ Đức",
+        "display": "Trạm Sạc Điện VinFast Trung Tâm Thương Mại Vincom Plaza Thủ Đức 216 Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 398092,
+            "name": "Bình Thọ",
+            "prefix": "Phường",
+            "full_name": "Phường Bình Thọ"
+          },
+          {
+            "type": 1,
+            "id": 4876,
+            "name": "Thủ Đức",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Thủ Đức"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "10013"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:ADDRESS:EA1E5CDC789399E2",
+        "distance": 0,
+        "address": "Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "name": "216 Võ Văn Ngân",
+        "display": "216 Võ Văn Ngân Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 398092,
+            "name": "Bình Thọ",
+            "prefix": "Phường",
+            "full_name": "Phường Bình Thọ"
+          },
+          {
+            "type": 1,
+            "id": 4876,
+            "name": "Thủ Đức",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Thủ Đức"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:8708B879DEF0180C",
+        "distance": 0,
+        "address": "216 Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "name": "VinFast Thủ Đức",
+        "display": "VinFast Thủ Đức 216 Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 398092,
+            "name": "Bình Thọ",
+            "prefix": "Phường",
+            "full_name": "Phường Bình Thọ"
+          },
+          {
+            "type": 1,
+            "id": 4876,
+            "name": "Thủ Đức",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Thủ Đức"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "10001"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vmg:POI:GGM0907Y9SDEK6TBNYTUIFDU6YWWBKKQTH9F",
+        "distance": 0,
+        "address": "259 Võ Văn Ngân,Phường Linh Chiểu,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "name": "Zip Vincom Thủ Đức",
+        "display": "Zip Vincom Thủ Đức 259 Võ Văn Ngân,Phường Linh Chiểu,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 201484,
+            "name": "Linh Chiểu",
+            "prefix": "Phường",
+            "full_name": "Phường Linh Chiểu"
+          },
+          {
+            "type": 1,
+            "id": 4876,
+            "name": "Thủ Đức",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Thủ Đức"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:1XUERZ4HYD2N1U9W",
+        "distance": 0,
+        "address": "Đường Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "name": "Cgv Vincom Thủ Đức",
+        "display": "Cgv Vincom Thủ Đức Đường Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 398092,
+            "name": "Bình Thọ",
+            "prefix": "Phường",
+            "full_name": "Phường Bình Thọ"
+          },
+          {
+            "type": 1,
+            "id": 4876,
+            "name": "Thủ Đức",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Thủ Đức"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "4000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:2D8RO7QII049KQ9S",
+        "distance": 0,
+        "address": "Đường Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "name": "Fashion Line Vincom Thủ Đức",
+        "display": "Fashion Line Vincom Thủ Đức Đường Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 398092,
+            "name": "Bình Thọ",
+            "prefix": "Phường",
+            "full_name": "Phường Bình Thọ"
+          },
+          {
+            "type": 1,
+            "id": 4876,
+            "name": "Thủ Đức",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Thủ Đức"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "3000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:4CTAUZHPGAFQ6DV0",
+        "distance": 0,
+        "address": "Đường Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "name": "Highlands Coffee Vincom Thủ Đức",
+        "display": "Highlands Coffee Vincom Thủ Đức Đường Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 398092,
+            "name": "Bình Thọ",
+            "prefix": "Phường",
+            "full_name": "Phường Bình Thọ"
+          },
+          {
+            "type": 1,
+            "id": 4876,
+            "name": "Thủ Đức",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Thủ Đức"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "1000"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:6ATHCJL57O0AF40A",
+        "distance": 0,
+        "address": "Đường Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "name": "Yves Rocher Vincom Thủ Đức",
+        "display": "Yves Rocher Vincom Thủ Đức Đường Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 398092,
+            "name": "Bình Thọ",
+            "prefix": "Phường",
+            "full_name": "Phường Bình Thọ"
+          },
+          {
+            "type": 1,
+            "id": 4876,
+            "name": "Thủ Đức",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Thủ Đức"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "3004",
+          "3004-36"
+        ],
+        "entry_points": []
+      },
+      {
+        "ref_id": "vm:POI:0C04C9159E7B1B9B",
+        "distance": 0,
+        "address": "Đường Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "name": "Bãi Đậu Xe Vincom Thủ Đức",
+        "display": "Bãi Đậu Xe Vincom Thủ Đức Đường Võ Văn Ngân,Phường Bình Thọ,Thành Phố Thủ Đức,Thành Phố Hồ Chí Minh",
+        "boundaries": [
+          {
+            "type": 2,
+            "id": 398092,
+            "name": "Bình Thọ",
+            "prefix": "Phường",
+            "full_name": "Phường Bình Thọ"
+          },
+          {
+            "type": 1,
+            "id": 4876,
+            "name": "Thủ Đức",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Thủ Đức"
+          },
+          {
+            "type": 0,
+            "id": 12,
+            "name": "Hồ Chí Minh",
+            "prefix": "Thành Phố",
+            "full_name": "Thành Phố Hồ Chí Minh"
+          }
+        ],
+        "categories": [
+          "10005"
+        ],
+        "entry_points": []
+      }
+    ]
+  }
+]
