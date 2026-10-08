@@ -1,7 +1,55 @@
 # MAP SERVICE: ĐỊA CHỈ, ĐỊA DANH VÀ ĐIỂM ĐÓN
 
 Schema chuẩn: [architecture.md](./architecture.md). NLU: [extractor.md](./extractor.md). Dữ liệu địa lý: [database.md](./database.md). Luồng node: [langgraph.md](./langgraph.md).
+```mermaid
+flowchart TD
+    Start([Bắt đầu: Khách gọi đến]) --> InitCounter[Khởi tạo Retry Count = 0]
+    InitCounter --> AskLoc[Bot hỏi / Khách nói điểm đón]
 
+    AskLoc --> CheckDB{Tra cứu CSDL nội bộ?}
+    
+    %% Nhánh CSDL
+    CheckDB -- Có kết quả chính xác --> ConfirmDB[Đọc địa chỉ đầy đủ & Xin xác nhận]
+    ConfirmDB --> ClientAcceptDB{Khách đồng ý?}
+    ClientAcceptDB -- Đồng ý --> Success([Chuyển trạng thái: ĐÃ XÁC NHẬN])
+    ClientAcceptDB -- Từ chối --> CallVM[Gọi API Vietmap]
+
+    CheckDB -- Không có --> CallVM
+
+    %% Nhánh Vietmap
+    CallVM --> VMResult{Số lượng kết quả Vietmap?}
+
+    %% Vietmap: 0 kết quả
+    VMResult -- 0 kết quả --> IncRetry0[Tăng Retry Count + 1]
+    IncRetry0 --> CheckRetry0{Retry > 3?}
+    CheckRetry0 -- Có --> FallbackHuman([Chuyển sang Tổng đài viên])
+    CheckRetry0 -- Không --> PromptLandmark[Nhờ khách nói thêm mốc/phường/quận]
+    PromptLandmark --> AskLoc
+
+    %% Vietmap: 1 kết quả
+    VMResult -- 1 kết quả --> ConfirmVM1[Đọc địa chỉ đầy đủ & Xin xác nhận]
+    ConfirmVM1 --> ClientAcceptVM1{Khách đồng ý?}
+    ClientAcceptVM1 -- Đồng ý --> Success
+    ClientAcceptVM1 -- Từ chối --> IncRetry1[Tăng Retry Count + 1]
+    IncRetry1 --> CheckRetry1{Retry > 3?}
+    CheckRetry1 -- Có --> FallbackHuman
+    CheckRetry1 -- Không --> ReAskLoc[Hỏi lại: Khách muốn đón ở đâu?]
+    ReAskLoc --> AskLoc
+
+    %% Vietmap: 2 kết quả
+    VMResult -- 2 kết quả --> AskClarify2[Hỏi lựa chọn: 'Anh/chị ở A hay B?']
+    AskClarify2 --> ClientPick2{Khách chọn?}
+    ClientPick2 -- Chọn A hoặc B --> Success
+    ClientPick2 -- Phủ định cả 2 --> IncRetry2[Tăng Retry Count + 1]
+    IncRetry2 --> CheckRetry2{Retry > 3?}
+    CheckRetry2 -- Có --> FallbackHuman
+    CheckRetry2 -- Không --> ReAskLoc
+
+    %% Vietmap: Nhiều kết quả (> 2)
+    VMResult -- Nhiều kết quả --> AskProvince[Hỏi khách thuộc Tỉnh/Thành nào?]
+    AskProvince --> FilterTop2[Lọc theo Tỉnh & chọn Top 2 kết quả cao nhất]
+    FilterTop2 --> AskClarify2
+```
 ## 1. Ranh giới và nguyên tắc
 
 Map nhận văn bản được Extractor bóc tách và ngữ cảnh địa lý, trả AddressSlot + tool_status. Không tự quyết định booked hay phát câu thoại. Reducer áp dụng kết quả; Policy chọn câu hỏi.

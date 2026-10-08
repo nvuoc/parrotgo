@@ -345,6 +345,13 @@ def resolve_address_update(
                 slot, selected, role, selected.get("city") or city, meta
             )
         return _apply_result(slot, ambiguous_result(candidates, city))
+    
+    if augment and candidates and value:
+        from src.services.vietmap_client import _text_key
+        val_key = _text_key(str(value))
+        for cand in candidates:
+            if val_key and (val_key == _text_key(cand.get("name") or "") or val_key == _text_key(cand.get("formatted") or "")):
+                return _resolve_candidate(slot, cand, role, cand.get("city") or city, meta)
     if augment and existing.get("place_id") and meta.get("sub_poi"):
         place = geo_cache.get_place(existing["place_id"])
         if place:

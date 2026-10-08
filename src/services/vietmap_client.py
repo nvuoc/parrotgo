@@ -198,6 +198,7 @@ GENERIC_BRANDS = {
     "vincom plaza",
     "vincom mega mall",
     "aeon",
+    "aeon mall",
     "lotte",
 }
 
@@ -238,7 +239,10 @@ def _result(tool_status: str, **fields: Any) -> dict[str, Any]:
 def ambiguous_result(
     candidates: list[dict[str, Any]], city: str | None = None, kind: str | None = None
 ) -> dict[str, Any]:
-    """Keep every candidate and ask for one detail instead of implying a false A/B choice."""
+    """Match flowchart: Filter Top 2 if city is present."""
+    if city and len(candidates) > 2:
+        candidates = candidates[:2]
+
     if not kind:
         kind = "city" if not city else "ab" if len(candidates) == 2 else "narrow"
     elif kind == "ab" and len(candidates) != 2:
@@ -581,9 +585,9 @@ class VietmapClient:
                     scores = [_match_score(query, c) for c in candidates]
                     house_dominant = False
                     if scores and scores[0] >= 75:
-                        house = re.match(r"^(\d+[a-z]?(?:/\d+[a-z]?)*)\b", query)
+                        house = re.match(r"^(?:so |ngo |ngach |hem |kiet |duong )?(\d+[a-z]?(?:/\d+[a-z]?)*)\b", query)
                         c0_name = _text_key(candidates[0].get("name") or "")
-                        c0_house = re.match(r"^(\d+[a-z]?(?:/\d+[a-z]?)*)\b", c0_name)
+                        c0_house = re.match(r"^(?:so |ngo |ngach |hem |kiet |duong )?(\d+[a-z]?(?:/\d+[a-z]?)*)\b", c0_name)
                         if (
                             house
                             and c0_house

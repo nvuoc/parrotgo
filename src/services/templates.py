@@ -124,6 +124,13 @@ def _generic_branch_label(slot: Dict[str, Any], city: str) -> str:
 
 def _open_clarification(slot: Dict[str, Any], target: str, candidates: list[Dict[str, Any]], city: str) -> str:
     """Ask for one useful attribute, even if the map supplied many candidates."""
+    if not candidates:
+        if target == "destination":
+            return RESPONSE_TEMPLATES["clarify_destination"]
+        if target.startswith("stopovers:"):
+            order = int(target.split(":", 1)[1]) + 1
+            return f"Dạ mình cho em một mốc dễ tìm tại điểm dừng thứ {order} ạ?"
+        return "Dạ gần mình có mốc nào dễ tìm ạ?"
     if not city:
         return RESPONSE_TEMPLATES["clarify_city"]
     for field, question in [

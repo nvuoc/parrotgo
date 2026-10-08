@@ -54,7 +54,7 @@ def action_policy_node(state: ParrotGoGraphState) -> Dict[str, Any]:
         or reason
         or state.get("fallback_count", 0) >= 2
         or state.get("tool_status") == "API_ERROR"
-        or retry.get("pickup", 0) >= 2
+        or retry.get("pickup", 0) > 3
     ):
         reason = reason or (
             "operator_requested"
@@ -62,7 +62,7 @@ def action_policy_node(state: ParrotGoGraphState) -> Dict[str, Any]:
             else "api_error"
             if state.get("tool_status") == "API_ERROR"
             else "pickup_retry_limit"
-            if retry.get("pickup", 0) >= 2
+            if retry.get("pickup", 0) > 3
             else "fallback_limit"
         )
         return action_result("human_handoff", [], "operator_required", reason=reason)

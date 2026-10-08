@@ -239,10 +239,10 @@ def state_reducer_node(state: ParrotGoGraphState) -> Dict[str, Any]:
                         "Điểm đến tương đối; trao đổi chi tiết khi gần đến nơi.",
                     )
                     retry[target] = 0
-                elif response in {"unknown", "reject_candidates"} or retry[target] >= 2:
+                elif response in {"unknown", "reject_candidates"} or retry[target] > 3:
                     reason = "destination_unresolved"
             elif role == "stopover":
-                if response in {"unknown", "reject_candidates"} or retry[target] >= 2:
+                if response in {"unknown", "reject_candidates"} or retry[target] > 3:
                     reason = "stopover_unresolved"
             elif slot.get("clarification_kind") == "landmark" or response == "reject_candidates":
                 reason = "pickup_unresolved"
