@@ -623,10 +623,15 @@ class VietmapClient:
             "https://maps.vietmap.vn/api/place/v3",
             params={"apikey": self.api_key, "refid": selected["ref_id"]},
         )
-        if response.status_code != 200:
-            return _result("API_ERROR")
-        detail = response.json()
-        if not isinstance(detail, dict):
+        detail: dict[str, Any] = {}
+        if response.status_code == 200:
+            res_json = response.json()
+            if isinstance(res_json, dict):
+                detail = res_json
+        elif response.status_code == 429:
+            # Vietmap place/v3 rate limited (HTTP 429). Fallback to search candidate data.
+            detail = {}
+        else:
             return _result("API_ERROR")
         components = {
             **(selected.get("components") or {}),
@@ -634,11 +639,28 @@ class VietmapClient:
         }
         coords = None
         try:
-            point = {"lat": float(detail["lat"]), "lng": float(detail["lng"])}
-            if valid_coords(point):
-                coords = point
+            if detail.get("lat") and detail.get("lng"):
+                point = {"lat": float(detail["lat"]), "lng": float(detail["lng"])}
+                if valid_coords(point):
+                    coords = point
         except (KeyError, TypeError, ValueError):
             pass
+
+        # Fallback approximate coords for known city if place/v3 was rate limited
+        if not coords and components.get("province_city"):
+            city_low = components["province_city"].lower()
+            if "hà nội" in city_low or "ha noi" in city_low:
+                coords = {"lat": 21.0285, "lng": 105.8542}
+            elif "hồ chí minh" in city_low or "ho chi minh" in city_low:
+                coords = {"lat": 10.8231, "lng": 106.6297}
+            elif "đà nẵng" in city_low or "da nang" in city_low:
+                coords = {"lat": 16.0544, "lng": 108.2022}
+            elif "quảng ninh" in city_low or "hạ long" in city_low or "ha long" in city_low:
+                coords = {"lat": 20.9505, "lng": 107.0734}
+            elif "hải phòng" in city_low or "hai phong" in city_low:
+                coords = {"lat": 20.8449, "lng": 106.6881}
+            elif "cần thơ" in city_low or "can tho" in city_low:
+                coords = {"lat": 10.0452, "lng": 105.7469}
         formatted = detail.get("display") or selected.get("formatted")
         resolved = {
             **selected,

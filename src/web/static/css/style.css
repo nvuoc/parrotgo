@@ -1,0 +1,472 @@
+/* ==============================================================================
+   ParrotGo - Phone Call Interface Style
+   Realistic, Authentic Phone Call UI (No generic AI flashy neon tropes)
+   ============================================================================== */
+
+:root {
+  --bg-app: #0b0f19;
+  --bg-card: #131b2e;
+  --border-color: #1e293b;
+  --border-focus: #3b82f6;
+
+  --text-main: #f8fafc;
+  --text-sub: #94a3b8;
+  --text-muted: #64748b;
+
+  --color-green: #16a34a;
+  --color-green-hover: #15803d;
+  --color-red: #dc2626;
+  --color-red-hover: #b91c1c;
+  --color-blue: #3b82f6;
+  --color-amber: #f59e0b;
+
+  --font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body.call-app {
+  font-family: var(--font-family);
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.call-container {
+  width: 100%;
+  max-width: 420px;
+  min-height: 620px;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ==============================================================================
+   SCREEN 1: SETUP SCREEN
+   ============================================================================== */
+.setup-screen {
+  justify-content: center;
+}
+
+.phone-frame {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 24px;
+  padding: 32px 28px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.brand-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #38bdf8;
+}
+
+.brand-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.01em;
+}
+
+.brand-sub {
+  font-size: 0.78rem;
+  color: var(--text-sub);
+}
+
+.card-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-title {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.02em;
+}
+
+.card-desc {
+  font-size: 0.88rem;
+  color: var(--text-sub);
+  line-height: 1.5;
+}
+
+.setup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 4px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #cbd5e1;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px 14px;
+  background: #0b0f19;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: var(--color-green);
+  box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.2);
+}
+
+.select-control {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 16px;
+  padding-right: 36px;
+}
+
+.btn-call-action {
+  margin-top: 8px;
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+  background-color: var(--color-green);
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+.btn-call-action:hover {
+  background-color: var(--color-green-hover);
+}
+
+.btn-call-action:active {
+  transform: scale(0.98);
+}
+
+.phone-svg-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.setup-footer {
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+/* ==============================================================================
+   SCREEN 2: ACTIVE CALL SCREEN (Realistic Phone Call Look)
+   ============================================================================== */
+.active-call-screen {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 32px;
+  padding: 32px 24px 36px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 640px;
+}
+
+/* Call Header */
+.call-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
+}
+
+.call-connection-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-sub);
+  background: #0b0f19;
+  border: 1px solid #1e293b;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  margin-bottom: 8px;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--text-muted);
+  transition: background-color 0.2s ease;
+}
+
+/* Visual States */
+.active-call-screen.speaking .status-dot {
+  background-color: var(--color-green);
+}
+.active-call-screen.speaking .call-connection-status {
+  color: #86efac;
+  border-color: rgba(22, 163, 74, 0.3);
+}
+
+.active-call-screen.listening .status-dot {
+  background-color: var(--color-blue);
+}
+.active-call-screen.listening .call-connection-status {
+  color: #93c5fd;
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.active-call-screen.thinking .status-dot {
+  background-color: var(--color-amber);
+}
+.active-call-screen.thinking .call-connection-status {
+  color: #fde68a;
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.caller-title {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.01em;
+}
+
+.caller-subtitle {
+  font-size: 0.88rem;
+  color: var(--text-sub);
+}
+
+.call-timer {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #cbd5e1;
+  font-variant-numeric: tabular-nums;
+  margin-top: 2px;
+}
+
+/* Call Body & Realistic Avatar */
+.call-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  margin: 20px 0;
+  flex: 1;
+  justify-content: center;
+}
+
+.caller-avatar-wrapper {
+  position: relative;
+  width: 104px;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1.5px solid rgba(22, 163, 74, 0.25);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ring-1 { width: 104px; height: 104px; }
+.ring-2 { width: 130px; height: 130px; }
+.ring-3 { width: 156px; height: 156px; }
+
+/* Subtle pulse ring only when speaking */
+.active-call-screen.speaking .avatar-ring {
+  animation: audioPulse 2.2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+.active-call-screen.speaking .ring-2 { animation-delay: 0.7s; }
+.active-call-screen.speaking .ring-3 { animation-delay: 1.4s; }
+
+@keyframes audioPulse {
+  0% { transform: scale(0.9); opacity: 0.6; }
+  100% { transform: scale(1.2); opacity: 0; }
+}
+
+.caller-avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: #1e293b;
+  border: 2px solid #334155;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #94a3b8;
+  transition: all 0.2s ease;
+}
+
+.active-call-screen.speaking .caller-avatar {
+  border-color: var(--color-green);
+  color: #86efac;
+}
+
+.active-call-screen.listening .caller-avatar {
+  border-color: var(--color-blue);
+  color: #93c5fd;
+}
+
+.avatar-icon {
+  width: 42px;
+  height: 42px;
+}
+
+/* Captions Bubble (Styled like iOS Live Captions) */
+.captions-bubble {
+  width: 100%;
+  background: #0b0f19;
+  border: 1px solid #1e293b;
+  border-radius: 16px;
+  padding: 14px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+}
+
+.caption-sender {
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--text-sub);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.caption-body {
+  font-size: 0.95rem;
+  color: #f1f5f9;
+  line-height: 1.45;
+  word-break: break-word;
+}
+
+/* Call Actions Bar (Realistic Phone Keypad Buttons) */
+.call-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding-top: 10px;
+}
+
+.action-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.action-btn {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: none;
+  background-color: #1e293b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.action-btn:hover {
+  background-color: #334155;
+}
+
+.action-btn:active {
+  transform: scale(0.94);
+}
+
+.action-svg {
+  width: 24px;
+  height: 24px;
+}
+
+.btn-hangup {
+  background-color: var(--color-red);
+}
+
+.btn-hangup:hover {
+  background-color: var(--color-red-hover);
+}
+
+.hangup-svg {
+  width: 28px;
+  height: 28px;
+}
+
+.action-label {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-sub);
+}

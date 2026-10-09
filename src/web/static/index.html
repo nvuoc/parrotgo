@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tổng Đài Đặt Xe ParrotGo</title>
+  <meta name="description" content="Gọi điện thoại trực tiếp đặt xe với tổng đài viên ParrotGo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="call-app">
+
+  <div class="call-container">
+
+    <!-- SCREEN 1: PRE-CALL SETUP (Màn hình chuẩn bị cuộc gọi) -->
+    <div class="screen setup-screen" id="screen-setup">
+      <div class="phone-frame">
+        <div class="brand-header">
+          <div class="brand-avatar">
+            <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 3c-.1.2-.1.5-.1.8v5.3c0 .6.4 1 1 1h2"/>
+              <circle cx="7" cy="17" r="2"/>
+              <circle cx="17" cy="17" r="2"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-name">ParrotGo Taxi</span>
+            <span class="brand-sub">Tổng Đài Đặt Xe Trực Tiếp</span>
+          </div>
+        </div>
+
+        <div class="card-intro">
+          <h1 class="card-title">Cuộc Gọi Đặt Xe</h1>
+          <p class="card-desc">Nhập số điện thoại để kết nối trực tiếp với tổng đài viên qua micro điện thoại/máy tính.</p>
+        </div>
+
+        <form class="setup-form" id="call-setup-form" onsubmit="return false;">
+          <div class="form-group">
+            <label for="input-name">Tên khách hàng</label>
+            <input 
+              type="text" 
+              id="input-name" 
+              class="form-control" 
+              placeholder="Ví dụ: Anh Nam" 
+              value="Anh Nam" 
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="input-phone">Số điện thoại</label>
+            <input 
+              type="tel" 
+              id="input-phone" 
+              class="form-control" 
+              placeholder="Ví dụ: 0912345678" 
+              value="0912345678" 
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="select-city">Khu vực đón xe</label>
+            <select id="select-city" class="form-control select-control">
+              <option value="Hồ Chí Minh" selected>Hồ Chí Minh</option>
+              <option value="Hà Nội">Hà Nội</option>
+              <option value="Đà Nẵng">Đà Nẵng</option>
+              <option value="toàn quốc">Toàn quốc (Hỏi làm rõ)</option>
+            </select>
+          </div>
+
+          <button type="button" class="btn-call-action" id="btn-call-start">
+            <svg class="phone-svg-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.24 1.02l-2.21 2.2z"/>
+            </svg>
+            <span>Gọi Tổng Đài</span>
+          </button>
+        </form>
+
+        <div class="setup-footer">
+          <span>Miễn phí cước gọi • Nói trực tiếp qua micro</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCREEN 2: ACTIVE CALL SCREEN (Màn hình đang gọi điện thoại) -->
+    <div class="screen active-call-screen" id="screen-active-call" style="display: none;">
+      
+      <!-- Call Header -->
+      <div class="call-header">
+        <div class="call-connection-status">
+          <span class="status-dot"></span>
+          <span id="call-status-badge">Đang kết nối...</span>
+        </div>
+        <h2 class="caller-title">Tổng Đài ParrotGo</h2>
+        <div class="caller-subtitle" id="caller-display-id">Anh Nam (0912345678) • Hồ Chí Minh</div>
+        <div class="call-timer" id="call-duration">00:00</div>
+      </div>
+
+      <!-- Caller Avatar & Natural Audio Ring -->
+      <div class="call-body">
+        <div class="caller-avatar-wrapper">
+          <div class="avatar-ring ring-3"></div>
+          <div class="avatar-ring ring-2"></div>
+          <div class="avatar-ring ring-1"></div>
+          <div class="caller-avatar">
+            <svg class="avatar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
+              <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
+              <path d="M19 16v2a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-2"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Live Captions Bubble (Phụ đề hội thoại) -->
+        <div class="captions-bubble" id="subtitles-container">
+          <div class="caption-sender" id="subtitle-speaker">Tổng đài:</div>
+          <div class="caption-body" id="subtitle-text">Đang kết nối cuộc gọi...</div>
+        </div>
+      </div>
+
+      <!-- Call Action Bar (Các nút bấm giống bàn phím gọi điện thoại) -->
+      <div class="call-actions">
+        
+        <!-- Mic Toggle -->
+        <div class="action-item">
+          <button class="action-btn btn-mic active" id="btn-mic-toggle" title="Tắt / Bật Micro">
+            <svg class="action-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" />
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+              <line x1="12" y1="19" x2="12" y2="22" />
+              <line x1="8" y1="22" x2="16" y2="22" />
+            </svg>
+          </button>
+          <span class="action-label" id="mic-label">Tắt tiếng</span>
+        </div>
+
+        <!-- End Call (Nút cúp máy đỏ) -->
+        <div class="action-item">
+          <button class="action-btn btn-hangup" id="btn-end-call" title="Kết thúc cuộc gọi">
+            <svg class="action-svg hangup-svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 9c-1.6 0-3.15.25-4.6.72v3.1c0 .39-.23.74-.56.9-.98.49-1.87 1.12-2.66 1.85-.18.18-.43.28-.7.28-.28 0-.53-.11-.71-.29L.29 13.08a.996.996 0 010-1.41C3.28 8.77 7.42 7 12 7s8.72 1.77 11.71 4.67c.39.39.39 1.02 0 1.41l-2.48 2.48c-.18.18-.43.29-.71.29-.27 0-.52-.11-.7-.28-.79-.74-1.69-1.36-2.67-1.85-.33-.16-.56-.5-.56-.9v-3.1C15.15 9.25 13.6 9 12 9z"/>
+            </svg>
+          </button>
+          <span class="action-label">Cúp máy</span>
+        </div>
+
+        <!-- Speaker Toggle -->
+        <div class="action-item">
+          <button class="action-btn btn-speaker active" id="btn-speaker-toggle" title="Loa ngoài">
+            <svg class="action-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+              <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07" />
+            </svg>
+          </button>
+          <span class="action-label" id="speaker-label">Loa ngoài</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Audio Player for TTS -->
+  <audio id="tts-audio-player" style="display: none;"></audio>
+
+  <!-- Application Script -->
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,351 +1,426 @@
 [
   {
     "id": "faq_pet_policy",
-    "document": "Quy định mang theo thú cưng, chó, mèo khi đặt xe trên ParrotGo",
+    "document": "Quy Ä‘á»‹nh mang theo thÃº cÆ°ng, chÃ³, mÃ¨o khi Ä‘áº·t xe trÃªn ParrotGo",
     "metadata": {
       "category": "policy",
       "sub_intent": "pet",
       "vehicle_type": "all",
-      "canonical_answer": "Dạ hiện tại em chưa có quy định đã được xác nhận về việc mang theo thú cưng ạ.",
-      "source": "unverified_sample",
+      "canonical_answer": "Dạ mình có thể mang theo thú cưng nhưng cần thông báo trước ạ. Thú cưng cần được giữ an toàn trong lồng hoặc túi vận chuyển phù hợp trên xe ạ.",
+      "source": "rag.md#19",
       "version": "v2",
-      "approved": false
-    }
+      "approved": true
+    },
+    "questions": [
+      "Có được mang theo thú cưng không?",
+      "Có cho chó lên xe không?",
+      "Mang mèo theo được không?",
+      "Quy định chở động vật thế nào?"
+    ],
+    "keywords": [
+      "thú cưng",
+      "chó",
+      "mèo",
+      "động vật",
+      "vật nuôi"
+    ]
   },
   {
     "id": "faq_child_seat",
-    "document": "Quy định về ghế trẻ em và an toàn cho trẻ nhỏ trên ô tô",
+    "document": "Quy Ä‘á»‹nh vá» gháº¿ tráº» em vÃ  an toÃ n cho tráº» nhá» trÃªn Ã´ tÃ´",
     "metadata": {
       "category": "policy",
       "sub_intent": "child_seat",
       "vehicle_type": "all",
-      "canonical_answer": "Dạ hiện tại em chưa có thông tin đã được xác nhận về ghế trẻ em ạ.",
-      "source": "unverified_sample",
+      "canonical_answer": "Dạ trẻ em cần có người lớn đi cùng ạ. Nếu mình cần ghế an toàn chuyên dụng cho trẻ em, em sẽ ghi chú lại để kiểm tra xem có xe đáp ứng được không, chứ không cam kết chắc chắn có sẵn ạ.",
+      "source": "rag.md#18",
       "version": "v2",
-      "approved": false
-    }
+      "approved": true
+    },
+    "questions": [
+      "Có ghế trẻ em không?",
+      "Trẻ em đi một mình được không?",
+      "Có hỗ trợ em bé không?"
+    ],
+    "keywords": [
+      "trẻ em",
+      "em bé",
+      "trẻ nhỏ",
+      "ghế trẻ em"
+    ]
   },
   {
     "id": "faq_supported_vehicles",
-    "document": "ParrotGo hỗ trợ những loại xe nào?",
+    "document": "ParrotGo há»— trá»£ nhá»¯ng loáº¡i xe nÃ o?",
     "questions": [
-      "Có những loại xe nào?",
-      "Có xe máy không?",
-      "Có xe bốn chỗ không?",
-      "Có xe bảy chỗ không?",
-      "Tôi có thể đặt xe mấy chỗ?",
-      "Dịch vụ có các loại xe gì?"
+      "CÃ³ nhá»¯ng loáº¡i xe nÃ o?",
+      "CÃ³ xe mÃ¡y khÃ´ng?",
+      "CÃ³ xe bá»‘n chá»— khÃ´ng?",
+      "CÃ³ xe báº£y chá»— khÃ´ng?",
+      "TÃ´i cÃ³ thá»ƒ Ä‘áº·t xe máº¥y chá»—?",
+      "Dá»‹ch vá»¥ cÃ³ cÃ¡c loáº¡i xe gÃ¬?"
     ],
     "keywords": [
-      "loại xe",
-      "xe gì",
-      "xe nào",
-      "xe máy",
-      "bốn chỗ",
-      "bảy chỗ",
-      "4 chỗ",
-      "7 chỗ",
-      "mấy chỗ"
+      "loáº¡i xe",
+      "xe gÃ¬",
+      "xe nÃ o",
+      "xe mÃ¡y",
+      "bá»‘n chá»—",
+      "báº£y chá»—",
+      "4 chá»—",
+      "7 chá»—",
+      "máº¥y chá»—"
     ],
     "metadata": {
       "category": "booking_help",
       "sub_intent": "vehicle_types",
       "vehicle_type": "all",
-      "canonical_answer": "Dạ mình có thể chọn xe máy, ô tô bốn chỗ hoặc ô tô bảy chỗ ạ.",
+      "canonical_answer": "Dáº¡ mÃ¬nh cÃ³ thá»ƒ chá»n xe mÃ¡y, Ã´ tÃ´ bá»‘n chá»— hoáº·c Ã´ tÃ´ báº£y chá»— áº¡.",
       "source": "architecture.md#2",
       "version": "mvp-v1",
       "approved": true
     },
     "excluded_keywords": [
-      "thú cưng",
-      "chó",
-      "mèo",
-      "vật nuôi",
-      "ghế trẻ em",
-      "trẻ nhỏ",
-      "trẻ em",
-      "em bé",
-      "giá",
-      "phí",
-      "cước",
-      "mang chó",
-      "chở chó",
-      "chó lên xe"
+      "thÃº cÆ°ng",
+      "chÃ³",
+      "mÃ¨o",
+      "váº­t nuÃ´i",
+      "gháº¿ tráº» em",
+      "tráº» nhá»",
+      "tráº» em",
+      "em bÃ©",
+      "giÃ¡",
+      "phÃ­",
+      "cÆ°á»›c",
+      "mang chÃ³",
+      "chá»Ÿ chÃ³",
+      "chÃ³ lÃªn xe"
     ]
   },
   {
     "id": "faq_booking_information",
-    "document": "Tôi cần cung cấp thông tin gì để đặt xe?",
+    "document": "TÃ´i cáº§n cung cáº¥p thÃ´ng tin gÃ¬ Ä‘á»ƒ Ä‘áº·t xe?",
     "questions": [
-      "Đặt xe cần những thông tin gì?",
-      "Cần nói gì để đặt xe?",
-      "Tôi cần cung cấp gì?",
-      "Thông tin nào là bắt buộc khi đặt xe?"
+      "Äáº·t xe cáº§n nhá»¯ng thÃ´ng tin gÃ¬?",
+      "Cáº§n nÃ³i gÃ¬ Ä‘á»ƒ Ä‘áº·t xe?",
+      "TÃ´i cáº§n cung cáº¥p gÃ¬?",
+      "ThÃ´ng tin nÃ o lÃ  báº¯t buá»™c khi Ä‘áº·t xe?"
     ],
     "keywords": [
-      "thông tin",
-      "cung cấp",
-      "cần nói gì",
-      "cần gì"
+      "thÃ´ng tin",
+      "cung cáº¥p",
+      "cáº§n nÃ³i gÃ¬",
+      "cáº§n gÃ¬"
     ],
     "metadata": {
       "category": "booking_help",
       "sub_intent": "required_information",
       "vehicle_type": "all",
-      "canonical_answer": "Dạ mình cho em điểm đón cụ thể, điểm đến và loại xe muốn đi. Nếu cần đón theo giờ hẹn, mình nói thêm ngày và giờ đón giúp em ạ.",
+      "canonical_answer": "Dáº¡ mÃ¬nh cho em Ä‘iá»ƒm Ä‘Ã³n cá»¥ thá»ƒ, Ä‘iá»ƒm Ä‘áº¿n vÃ  loáº¡i xe muá»‘n Ä‘i. Náº¿u cáº§n Ä‘Ã³n theo giá» háº¹n, mÃ¬nh nÃ³i thÃªm ngÃ y vÃ  giá» Ä‘Ã³n giÃºp em áº¡.",
       "source": "architecture.md#2",
       "version": "mvp-v1",
       "approved": true
     },
     "excluded_keywords": [
-      "thú cưng",
-      "chó",
-      "mèo",
-      "vật nuôi",
-      "ghế trẻ em",
-      "trẻ nhỏ",
-      "trẻ em",
-      "em bé",
-      "giá",
-      "phí",
-      "cước",
-      "mang chó",
-      "chở chó",
-      "chó lên xe"
+      "thÃº cÆ°ng",
+      "chÃ³",
+      "mÃ¨o",
+      "váº­t nuÃ´i",
+      "gháº¿ tráº» em",
+      "tráº» nhá»",
+      "tráº» em",
+      "em bÃ©",
+      "giÃ¡",
+      "phÃ­",
+      "cÆ°á»›c",
+      "mang chÃ³",
+      "chá»Ÿ chÃ³",
+      "chÃ³ lÃªn xe"
     ]
   },
   {
     "id": "faq_booking_saved_only",
-    "document": "Đặt xe thành công nghĩa là gì trong bản demo?",
+    "document": "Äáº·t xe thÃ nh cÃ´ng nghÄ©a lÃ  gÃ¬ trong báº£n demo?",
     "questions": [
-      "Hệ thống đã điều tài xế chưa?",
-      "Đã có tài xế nhận chuyến chưa?",
-      "Demo có gọi tài xế thật không?",
-      "Bản demo có điều xe thật không?",
-      "Lưu yêu cầu thành công nghĩa là gì?",
-      "Đặt xe xong thì tài xế đã được gọi chưa?"
+      "Há»‡ thá»‘ng Ä‘Ã£ Ä‘iá»u tÃ i xáº¿ chÆ°a?",
+      "ÄÃ£ cÃ³ tÃ i xáº¿ nháº­n chuyáº¿n chÆ°a?",
+      "Demo cÃ³ gá»i tÃ i xáº¿ tháº­t khÃ´ng?",
+      "Báº£n demo cÃ³ Ä‘iá»u xe tháº­t khÃ´ng?",
+      "LÆ°u yÃªu cáº§u thÃ nh cÃ´ng nghÄ©a lÃ  gÃ¬?",
+      "Äáº·t xe xong thÃ¬ tÃ i xáº¿ Ä‘Ã£ Ä‘Æ°á»£c gá»i chÆ°a?"
     ],
     "keywords": [
-      "thành công",
-      "tài xế",
-      "điều xe",
+      "thÃ nh cÃ´ng",
+      "tÃ i xáº¿",
+      "Ä‘iá»u xe",
       "demo",
-      "lưu yêu cầu"
+      "lÆ°u yÃªu cáº§u"
     ],
     "metadata": {
       "category": "booking_help",
       "sub_intent": "demo_scope",
       "vehicle_type": "all",
-      "canonical_answer": "Dạ bản demo chỉ lưu yêu cầu đặt xe sau khi mình xác nhận. Hiện chưa kết nối hệ thống điều xe hoặc tài xế ạ.",
+      "canonical_answer": "Dáº¡ báº£n demo chá»‰ lÆ°u yÃªu cáº§u Ä‘áº·t xe sau khi mÃ¬nh xÃ¡c nháº­n. Hiá»‡n chÆ°a káº¿t ná»‘i há»‡ thá»‘ng Ä‘iá»u xe hoáº·c tÃ i xáº¿ áº¡.",
       "source": "architecture.md#1",
       "version": "mvp-v1",
       "approved": true
     },
     "excluded_keywords": [
-      "thú cưng",
-      "chó",
-      "mèo",
-      "vật nuôi",
-      "ghế trẻ em",
-      "trẻ nhỏ",
-      "trẻ em",
-      "em bé",
-      "giá",
-      "phí",
-      "cước",
-      "mang chó",
-      "chở chó",
-      "chó lên xe"
+      "thÃº cÆ°ng",
+      "chÃ³",
+      "mÃ¨o",
+      "váº­t nuÃ´i",
+      "gháº¿ tráº» em",
+      "tráº» nhá»",
+      "tráº» em",
+      "em bÃ©",
+      "giÃ¡",
+      "phÃ­",
+      "cÆ°á»›c",
+      "mang chÃ³",
+      "chá»Ÿ chÃ³",
+      "chÃ³ lÃªn xe"
     ]
   },
   {
     "id": "faq_scheduled_pickup",
-    "document": "Có thể hẹn giờ đón không?",
+    "document": "CÃ³ thá»ƒ háº¹n giá» Ä‘Ã³n khÃ´ng?",
     "questions": [
-      "Có thể đặt xe theo giờ hẹn không?",
-      "Tôi muốn hẹn giờ đón thì cần nói gì?",
-      "Đặt xe cho ngày mai được không?",
-      "Có hỗ trợ đón theo lịch hẹn không?",
-      "Có thể hẹn xe đón vào ngày mai không?",
-      "Tôi muốn đặt chuyến đón vào ngày mai thì có được không?",
-      "Mình có thể hẹn xe đến đón vào một ngày khác không?",
-      "Muốn hẹn xe đón vào ngày mai thì cần nói gì?",
-      "Tôi muốn xe đón lúc bảy giờ tối hôm nay có được không?"
+      "CÃ³ thá»ƒ Ä‘áº·t xe theo giá» háº¹n khÃ´ng?",
+      "TÃ´i muá»‘n háº¹n giá» Ä‘Ã³n thÃ¬ cáº§n nÃ³i gÃ¬?",
+      "Äáº·t xe cho ngÃ y mai Ä‘Æ°á»£c khÃ´ng?",
+      "CÃ³ há»— trá»£ Ä‘Ã³n theo lá»‹ch háº¹n khÃ´ng?",
+      "CÃ³ thá»ƒ háº¹n xe Ä‘Ã³n vÃ o ngÃ y mai khÃ´ng?",
+      "TÃ´i muá»‘n Ä‘áº·t chuyáº¿n Ä‘Ã³n vÃ o ngÃ y mai thÃ¬ cÃ³ Ä‘Æ°á»£c khÃ´ng?",
+      "MÃ¬nh cÃ³ thá»ƒ háº¹n xe Ä‘áº¿n Ä‘Ã³n vÃ o má»™t ngÃ y khÃ¡c khÃ´ng?",
+      "Muá»‘n háº¹n xe Ä‘Ã³n vÃ o ngÃ y mai thÃ¬ cáº§n nÃ³i gÃ¬?",
+      "TÃ´i muá»‘n xe Ä‘Ã³n lÃºc báº£y giá» tá»‘i hÃ´m nay cÃ³ Ä‘Æ°á»£c khÃ´ng?"
     ],
     "keywords": [
-      "giờ đón",
-      "giờ hẹn",
-      "hẹn giờ",
-      "lịch hẹn",
-      "ngày mai",
-      "lịch đón",
-      "hẹn đón",
-      "hẹn xe",
-      "ngày khác",
-      "lúc mấy giờ"
+      "giá» Ä‘Ã³n",
+      "giá» háº¹n",
+      "háº¹n giá»",
+      "lá»‹ch háº¹n",
+      "ngÃ y mai",
+      "lá»‹ch Ä‘Ã³n",
+      "háº¹n Ä‘Ã³n",
+      "háº¹n xe",
+      "ngÃ y khÃ¡c",
+      "lÃºc máº¥y giá»"
     ],
     "metadata": {
       "category": "booking_help",
       "sub_intent": "scheduled_pickup",
       "vehicle_type": "all",
-      "canonical_answer": "Dạ mình có thể yêu cầu đón theo giờ hẹn. Mình cho em ngày và giờ cụ thể trong tương lai để em ghi nhận chính xác ạ.",
+      "canonical_answer": "Dáº¡ mÃ¬nh cÃ³ thá»ƒ yÃªu cáº§u Ä‘Ã³n theo giá» háº¹n. MÃ¬nh cho em ngÃ y vÃ  giá» cá»¥ thá»ƒ trong tÆ°Æ¡ng lai Ä‘á»ƒ em ghi nháº­n chÃ­nh xÃ¡c áº¡.",
       "source": "architecture.md#2; src/core/time_utils.py",
       "version": "mvp-v1",
       "approved": true
     },
     "excluded_keywords": [
-      "thú cưng",
-      "chó",
-      "mèo",
-      "vật nuôi",
-      "ghế trẻ em",
-      "trẻ nhỏ",
-      "trẻ em",
-      "em bé",
-      "giá",
-      "phí",
-      "cước",
-      "mang chó",
-      "chở chó",
-      "chó lên xe"
+      "thÃº cÆ°ng",
+      "chÃ³",
+      "mÃ¨o",
+      "váº­t nuÃ´i",
+      "gháº¿ tráº» em",
+      "tráº» nhá»",
+      "tráº» em",
+      "em bÃ©",
+      "giÃ¡",
+      "phÃ­",
+      "cÆ°á»›c",
+      "mang chÃ³",
+      "chá»Ÿ chÃ³",
+      "chÃ³ lÃªn xe"
     ]
   },
   {
     "id": "faq_stopovers",
-    "document": "Tôi có thể thêm điểm dừng không?",
+    "document": "TÃ´i cÃ³ thá»ƒ thÃªm Ä‘iá»ƒm dá»«ng khÃ´ng?",
     "questions": [
-      "Chuyến đi có thể ghé qua một chỗ không?",
-      "Có hỗ trợ nhiều điểm dừng không?",
-      "Tôi muốn ghé thêm một địa chỉ trên đường thì có được không?",
-      "Tôi có thể bỏ điểm dừng đã nói không?",
-      "Trên đường có thể ghé thêm một nơi không?",
-      "Tôi muốn ghé một địa điểm trước khi tới nơi thì nói thế nào?",
-      "Tôi muốn ghé thêm một chỗ trên đường được không?",
-      "Tôi có thể yêu cầu xe dừng thêm một chỗ trên đường không?",
-      "Tôi có thể đi qua nhiều địa chỉ trong một chuyến không?"
+      "Chuyáº¿n Ä‘i cÃ³ thá»ƒ ghÃ© qua má»™t chá»— khÃ´ng?",
+      "CÃ³ há»— trá»£ nhiá»u Ä‘iá»ƒm dá»«ng khÃ´ng?",
+      "TÃ´i muá»‘n ghÃ© thÃªm má»™t Ä‘á»‹a chá»‰ trÃªn Ä‘Æ°á»ng thÃ¬ cÃ³ Ä‘Æ°á»£c khÃ´ng?",
+      "TÃ´i cÃ³ thá»ƒ bá» Ä‘iá»ƒm dá»«ng Ä‘Ã£ nÃ³i khÃ´ng?",
+      "TrÃªn Ä‘Æ°á»ng cÃ³ thá»ƒ ghÃ© thÃªm má»™t nÆ¡i khÃ´ng?",
+      "TÃ´i muá»‘n ghÃ© má»™t Ä‘á»‹a Ä‘iá»ƒm trÆ°á»›c khi tá»›i nÆ¡i thÃ¬ nÃ³i tháº¿ nÃ o?",
+      "TÃ´i muá»‘n ghÃ© thÃªm má»™t chá»— trÃªn Ä‘Æ°á»ng Ä‘Æ°á»£c khÃ´ng?",
+      "TÃ´i cÃ³ thá»ƒ yÃªu cáº§u xe dá»«ng thÃªm má»™t chá»— trÃªn Ä‘Æ°á»ng khÃ´ng?",
+      "TÃ´i cÃ³ thá»ƒ Ä‘i qua nhiá»u Ä‘á»‹a chá»‰ trong má»™t chuyáº¿n khÃ´ng?"
     ],
     "keywords": [
-      "điểm dừng",
-      "ghé qua",
-      "ghé thêm",
-      "dừng ở",
-      "bỏ điểm dừng",
-      "ghé",
-      "đi qua",
-      "dừng thêm"
+      "Ä‘iá»ƒm dá»«ng",
+      "ghÃ© qua",
+      "ghÃ© thÃªm",
+      "dá»«ng á»Ÿ",
+      "bá» Ä‘iá»ƒm dá»«ng",
+      "ghÃ©",
+      "Ä‘i qua",
+      "dá»«ng thÃªm"
     ],
     "metadata": {
       "category": "booking_help",
       "sub_intent": "stopovers",
       "vehicle_type": "all",
-      "canonical_answer": "Dạ mình có thể thêm hoặc bỏ điểm dừng trước khi xác nhận yêu cầu. Mình nói rõ địa chỉ và thứ tự các điểm muốn ghé, em sẽ đọc lại trong tóm tắt ạ.",
+      "canonical_answer": "Dáº¡ mÃ¬nh cÃ³ thá»ƒ thÃªm hoáº·c bá» Ä‘iá»ƒm dá»«ng trÆ°á»›c khi xÃ¡c nháº­n yÃªu cáº§u. MÃ¬nh nÃ³i rÃµ Ä‘á»‹a chá»‰ vÃ  thá»© tá»± cÃ¡c Ä‘iá»ƒm muá»‘n ghÃ©, em sáº½ Ä‘á»c láº¡i trong tÃ³m táº¯t áº¡.",
       "source": "architecture.md#2; planner.md#5",
       "version": "mvp-v1",
       "approved": true
     },
     "excluded_keywords": [
-      "thú cưng",
-      "chó",
-      "mèo",
-      "vật nuôi",
-      "ghế trẻ em",
-      "trẻ nhỏ",
-      "trẻ em",
-      "em bé",
-      "giá",
-      "phí",
-      "cước",
-      "mang chó",
-      "chở chó",
-      "chó lên xe"
+      "thÃº cÆ°ng",
+      "chÃ³",
+      "mÃ¨o",
+      "váº­t nuÃ´i",
+      "gháº¿ tráº» em",
+      "tráº» nhá»",
+      "tráº» em",
+      "em bÃ©",
+      "giÃ¡",
+      "phÃ­",
+      "cÆ°á»›c",
+      "mang chÃ³",
+      "chá»Ÿ chÃ³",
+      "chÃ³ lÃªn xe"
     ]
   },
   {
     "id": "faq_modify_before_confirmation",
-    "document": "Tôi có thể sửa thông tin trước khi xác nhận không?",
+    "document": "TÃ´i cÃ³ thá»ƒ sá»­a thÃ´ng tin trÆ°á»›c khi xÃ¡c nháº­n khÃ´ng?",
     "questions": [
-      "Tôi có thể thay đổi thông tin chuyến đi không?",
-      "Có thể đổi loại xe trước khi xác nhận không?",
-      "Có thể sửa địa chỉ đón trước khi đặt xong không?",
-      "Nếu tóm tắt sai thì tôi cần làm gì?",
-      "Tôi muốn thay điểm đến thì cần làm gì?",
-      "Tôi muốn đổi nơi đón thì phải nói thế nào?",
-      "Tôi cần làm gì để thay loại xe đã chọn?",
-      "Tôi muốn đổi giờ đón đã nói thì làm sao?",
-      "Thay đổi thông tin đã ghi nhận trước khi xác nhận được không?"
+      "TÃ´i cÃ³ thá»ƒ thay Ä‘á»•i thÃ´ng tin chuyáº¿n Ä‘i khÃ´ng?",
+      "CÃ³ thá»ƒ Ä‘á»•i loáº¡i xe trÆ°á»›c khi xÃ¡c nháº­n khÃ´ng?",
+      "CÃ³ thá»ƒ sá»­a Ä‘á»‹a chá»‰ Ä‘Ã³n trÆ°á»›c khi Ä‘áº·t xong khÃ´ng?",
+      "Náº¿u tÃ³m táº¯t sai thÃ¬ tÃ´i cáº§n lÃ m gÃ¬?",
+      "TÃ´i muá»‘n thay Ä‘iá»ƒm Ä‘áº¿n thÃ¬ cáº§n lÃ m gÃ¬?",
+      "TÃ´i muá»‘n Ä‘á»•i nÆ¡i Ä‘Ã³n thÃ¬ pháº£i nÃ³i tháº¿ nÃ o?",
+      "TÃ´i cáº§n lÃ m gÃ¬ Ä‘á»ƒ thay loáº¡i xe Ä‘Ã£ chá»n?",
+      "TÃ´i muá»‘n Ä‘á»•i giá» Ä‘Ã³n Ä‘Ã£ nÃ³i thÃ¬ lÃ m sao?",
+      "Thay Ä‘á»•i thÃ´ng tin Ä‘Ã£ ghi nháº­n trÆ°á»›c khi xÃ¡c nháº­n Ä‘Æ°á»£c khÃ´ng?"
     ],
     "keywords": [
-      "sửa",
-      "thay đổi",
-      "đổi",
-      "tóm tắt sai",
+      "sá»­a",
+      "thay Ä‘á»•i",
+      "Ä‘á»•i",
+      "tÃ³m táº¯t sai",
       "thay",
-      "điều chỉnh"
+      "Ä‘iá»u chá»‰nh"
     ],
     "metadata": {
       "category": "booking_help",
       "sub_intent": "modify_booking",
       "vehicle_type": "all",
-      "canonical_answer": "Dạ trước khi xác nhận, mình nói rõ thông tin cần sửa và giá trị mới. Em sẽ cập nhật rồi đọc lại tóm tắt để mình kiểm tra ạ.",
+      "canonical_answer": "Dáº¡ trÆ°á»›c khi xÃ¡c nháº­n, mÃ¬nh nÃ³i rÃµ thÃ´ng tin cáº§n sá»­a vÃ  giÃ¡ trá»‹ má»›i. Em sáº½ cáº­p nháº­t rá»“i Ä‘á»c láº¡i tÃ³m táº¯t Ä‘á»ƒ mÃ¬nh kiá»ƒm tra áº¡.",
       "source": "planner.md#3",
       "version": "mvp-v1",
       "approved": true
     },
     "excluded_keywords": [
-      "thú cưng",
-      "chó",
-      "mèo",
-      "vật nuôi",
-      "ghế trẻ em",
-      "trẻ nhỏ",
-      "trẻ em",
-      "em bé",
-      "giá",
-      "phí",
-      "cước",
-      "mang chó",
-      "chở chó",
-      "chó lên xe"
+      "thÃº cÆ°ng",
+      "chÃ³",
+      "mÃ¨o",
+      "váº­t nuÃ´i",
+      "gháº¿ tráº» em",
+      "tráº» nhá»",
+      "tráº» em",
+      "em bÃ©",
+      "giÃ¡",
+      "phÃ­",
+      "cÆ°á»›c",
+      "mang chÃ³",
+      "chá»Ÿ chÃ³",
+      "chÃ³ lÃªn xe"
     ]
   },
   {
     "id": "faq_cancel_before_confirmation",
-    "document": "Tôi có thể hủy yêu cầu trước khi xác nhận không?",
+    "document": "TÃ´i cÃ³ thá»ƒ há»§y yÃªu cáº§u trÆ°á»›c khi xÃ¡c nháº­n khÃ´ng?",
     "questions": [
-      "Nếu không muốn đặt nữa thì làm thế nào?",
-      "Có thể hủy yêu cầu đặt xe trong phiên này không?",
-      "Hủy yêu cầu trong demo như thế nào?",
-      "Tôi phải xác nhận hủy không?"
+      "Náº¿u khÃ´ng muá»‘n Ä‘áº·t ná»¯a thÃ¬ lÃ m tháº¿ nÃ o?",
+      "CÃ³ thá»ƒ há»§y yÃªu cáº§u Ä‘áº·t xe trong phiÃªn nÃ y khÃ´ng?",
+      "Há»§y yÃªu cáº§u trong demo nhÆ° tháº¿ nÃ o?",
+      "TÃ´i pháº£i xÃ¡c nháº­n há»§y khÃ´ng?"
     ],
     "keywords": [
-      "hủy",
-      "không muốn đặt nữa",
-      "không đặt nữa"
+      "há»§y",
+      "khÃ´ng muá»‘n Ä‘áº·t ná»¯a",
+      "khÃ´ng Ä‘áº·t ná»¯a"
     ],
     "metadata": {
       "category": "booking_help",
       "sub_intent": "cancel_booking",
       "vehicle_type": "all",
-      "canonical_answer": "Dạ nếu muốn hủy yêu cầu trong phiên này, mình nói yêu cầu hủy. Em sẽ hỏi lại để mình xác nhận trước khi kết thúc phiên ạ.",
+      "canonical_answer": "Dáº¡ náº¿u muá»‘n há»§y yÃªu cáº§u trong phiÃªn nÃ y, mÃ¬nh nÃ³i yÃªu cáº§u há»§y. Em sáº½ há»i láº¡i Ä‘á»ƒ mÃ¬nh xÃ¡c nháº­n trÆ°á»›c khi káº¿t thÃºc phiÃªn áº¡.",
       "source": "planner.md#3",
       "version": "mvp-v1",
       "approved": true
     },
     "excluded_keywords": [
-      "thú cưng",
-      "chó",
-      "mèo",
-      "vật nuôi",
-      "ghế trẻ em",
-      "trẻ nhỏ",
-      "trẻ em",
-      "em bé",
-      "giá",
-      "phí",
-      "cước",
-      "mang chó",
-      "chở chó",
-      "chó lên xe"
+      "thÃº cÆ°ng",
+      "chÃ³",
+      "mÃ¨o",
+      "váº­t nuÃ´i",
+      "gháº¿ tráº» em",
+      "tráº» nhá»",
+      "tráº» em",
+      "em bÃ©",
+      "giÃ¡",
+      "phÃ­",
+      "cÆ°á»›c",
+      "mang chÃ³",
+      "chá»Ÿ chÃ³",
+      "chÃ³ lÃªn xe"
+    ]
+  },
+  {
+    "questions": [
+      "Tôi mang theo nhiều đồ được không?",
+      "Có chỗ để vali không?",
+      "Hành lý cồng kềnh chở được không?"
+    ],
+    "document": "Quy định về hành lý và đồ dùng cá nhân",
+    "metadata": {
+      "canonical_answer": "Dạ mình có thể mang theo hành lý cá nhân. Nếu có nhiều vali hoặc đồ cồng kềnh, mình nên chọn xe 7 chỗ để có thêm không gian nhé.",
+      "version": "v2",
+      "source": "rag.md#17",
+      "vehicle_type": "all",
+      "sub_intent": "luggage",
+      "approved": true,
+      "category": "policy"
+    },
+    "id": "faq_luggage",
+    "keywords": [
+      "hành lý",
+      "vali",
+      "đồ đạc",
+      "cồng kềnh"
+    ]
+  },
+  {
+    "questions": [
+      "Có thanh toán bằng tiền mặt không?",
+      "Có chuyển khoản được không?",
+      "Quét mã QR được không?",
+      "Trả thẻ được không?"
+    ],
+    "document": "Các hình thức thanh toán được chấp nhận",
+    "metadata": {
+      "canonical_answer": "Dạ mình có thể thanh toán bằng tiền mặt hoặc quét mã QR sau khi hoàn thành chuyến đi ạ. Không bắt buộc phải thanh toán trước đâu ạ.",
+      "version": "v2",
+      "source": "rag.md#15",
+      "vehicle_type": "all",
+      "sub_intent": "payment",
+      "approved": true,
+      "category": "policy"
+    },
+    "id": "faq_payment",
+    "keywords": [
+      "thanh toán",
+      "tiền mặt",
+      "chuyển khoản",
+      "mã qr",
+      "quét mã",
+      "trả tiền"
     ]
   }
 ]

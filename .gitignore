@@ -50,3 +50,9 @@ htmlcov/
 Thumbs.db
 .tmp/
 
+# Binary archives, executables, and local temporary files
+*.zip
+*.exe
+log.txt
+lk_cli/
+lk_server/
