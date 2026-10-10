@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  parrotgo-agent:
+    # Thay <your-github-username> bằng username hoặc organization GitHub của bạn
+    # Ví dụ: image: ghcr.io/nvuoc/parrotgo:latest
+    image: ${IMAGE_NAME:-ghcr.io/your-username/parrotgo:latest}
+    container_name: parrotgo-voice-agent
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      # Mount thư mục data để lưu SQLite DB, ChromaDB và snapshot places
+      - ./data:/app/data
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

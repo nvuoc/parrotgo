@@ -11,9 +11,15 @@ tzdata==2026.5
 typing_extensions==4.16.0
 python-dotenv==1.2.3
 
-# Optional LLM providers
+# LLM & Voice providers
 google-genai==2.23.0
-openai==3.13.0
+openai>=2.50.0,<3.0.0
+
+# LiveKit Voice Worker
+livekit-agents>=1.8.0,<2.0.0
+livekit-plugins-azure>=1.8.0,<2.0.0
+livekit-plugins-silero>=1.8.0,<2.0.0
 
 # Testing
 pytest==9.1.1
+

@@ -1,0 +1,40 @@
+# Git & IDE
+.git
+.gitignore
+.vscode
+.idea
+
+# Virtual Environment & Python cache
+.venv
+venv
+ENV
+__pycache__
+*.py[cod]
+*$py.class
+*.egg-info
+dist
+build
+
+# Test & Lint Cache
+.pytest_cache
+.ruff_cache
+.coverage
+htmlcov
+
+# Local binaries and zip archives
+lk.zip
+lk-server.zip
+lk_cli/
+lk_server/
+*.bat
+*.ps1
+
+# Logs & temp files
+log.txt
+*.log
+.tmp/
+scratch/
+
+# Runtime data (mount as volume instead of baking into image)
+data/parrotgo.db
+data/chroma_data/
